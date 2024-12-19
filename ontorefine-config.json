@@ -1,0 +1,414 @@
+{
+    "importOptions": [
+      {
+        "recordPath": [
+          "_",
+          "events",
+          "_"
+        ],
+        "limit": -1,
+        "trimStrings": false,
+        "guessCellValueTypes": false,
+        "storeEmptyStrings": false,
+        "includeFileSources": false,
+        "includeArchiveFileName": false,
+        "disableAutoPreview": false,
+        "projectName": "data json",
+        "projectTags": [],
+        "fileSource": "data.json",
+        "archiveFileName": null
+      }
+    ],
+    "operations": [
+      {
+        "op": "core/row-removal",
+        "engineConfig": {
+          "facets": [
+            {
+              "type": "text",
+              "name": "_ - is_sports",
+              "columnName": "_ - is_sports",
+              "query": "true",
+              "mode": "text",
+              "caseSensitive": false,
+              "invert": false
+            }
+          ],
+          "mode": "record-based"
+        },
+        "description": "Remove rows"
+      },
+      {
+        "op": "mapping-editor/save-rdf-mapping",
+        "mapping": {
+          "baseIRI": "http://example.com/base/",
+          "namespaces": {
+            "event": "http://spektrix.com/event/",
+            "schema": "http://schema.org/",
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+          },
+          "subjectMappings": [
+            {
+              "subject": {
+                "valueSource": {
+                  "source": "column",
+                  "columnName": "_ - id"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "event"
+                }
+              },
+              "typeMappings": [
+                {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "Event"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                }
+              ],
+              "propertyMappings": [
+                {
+                  "property": {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "name"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "schema"
+                    }
+                  },
+                  "values": [
+                    {
+                      "valueSource": {
+                        "source": "column",
+                        "columnName": "_ - name"
+                      },
+                      "valueType": {
+                        "type": "literal"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "property": {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "startDate"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "schema"
+                    }
+                  },
+                  "values": [
+                    {
+                      "valueSource": {
+                        "source": "column",
+                        "columnName": "_ - date_showtime"
+                      },
+                      "valueType": {
+                        "type": "datatype_literal",
+                        "datatype": {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "dateTime"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "xsd"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "property": {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "doorTime"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "schema"
+                    }
+                  },
+                  "values": [
+                    {
+                      "valueSource": {
+                        "source": "column",
+                        "columnName": "_ - date_doors"
+                      },
+                      "valueType": {
+                        "type": "datatype_literal",
+                        "datatype": {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "dateTime"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "xsd"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "property": {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "location"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "schema"
+                    }
+                  },
+                  "values": [
+                    {
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "http://kg.artsdata.ca/resource/K11-240"
+                      },
+                      "valueType": {
+                        "type": "iri",
+                        "typeMappings": [],
+                        "propertyMappings": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "property": {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "offers"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "schema"
+                    }
+                  },
+                  "values": [
+                    {
+                      "valueSource": {
+                        "source": "column",
+                        "columnName": "_ - id"
+                      },
+                      "valueType": {
+                        "type": "unique_bnode",
+                        "typeMappings": [
+                          {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "Offer"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          }
+                        ],
+                        "propertyMappings": [
+                          {
+                            "property": {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "url"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "schema"
+                              }
+                            },
+                            "values": [
+                              {
+                                "valueSource": {
+                                  "source": "column",
+                                  "columnName": "_ - url_tickets - regular_tickets - regular_tickets"
+                                },
+                                "valueType": {
+                                  "type": "literal"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "property": {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "performers"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "schema"
+                    }
+                  },
+                  "values": [
+                    {
+                      "valueSource": {
+                        "source": "column",
+                        "columnName": "_ - artists - _ - name"
+                      },
+                      "valueType": {
+                        "type": "unique_bnode",
+                        "typeMappings": [
+                          {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "performer"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          }
+                        ],
+                        "propertyMappings": [
+                          {
+                            "property": {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "name"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "schema"
+                              }
+                            },
+                            "values": [
+                              {
+                                "valueSource": {
+                                  "source": "column",
+                                  "columnName": "_ - artists - _ - name"
+                                },
+                                "valueType": {
+                                  "type": "literal"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "property": {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "url"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "schema"
+                              }
+                            },
+                            "values": [
+                              {
+                                "valueSource": {
+                                  "source": "column",
+                                  "columnName": "_ - artists - _ - youtube_url"
+                                },
+                                "valueType": {
+                                  "type": "iri",
+                                  "typeMappings": [],
+                                  "propertyMappings": []
+                                }
+                              },
+                              {
+                                "valueSource": {
+                                  "source": "column",
+                                  "columnName": "_ - artists - _ - video_url"
+                                },
+                                "valueType": {
+                                  "type": "iri",
+                                  "typeMappings": [],
+                                  "propertyMappings": []
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "property": {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "image"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "schema"
+                    }
+                  },
+                  "values": [
+                    {
+                      "valueSource": {
+                        "source": "column",
+                        "columnName": "_ - id"
+                      },
+                      "valueType": {
+                        "type": "unique_bnode",
+                        "typeMappings": [
+                          {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "ImageObject"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          }
+                        ],
+                        "propertyMappings": [
+                          {
+                            "property": {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "url"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "schema"
+                              }
+                            },
+                            "values": [
+                              {
+                                "valueSource": {
+                                  "source": "column",
+                                  "columnName": "_ - images - large"
+                                },
+                                "valueType": {
+                                  "type": "iri",
+                                  "typeMappings": [],
+                                  "propertyMappings": []
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "description": "Save RDF Mapping"
+      }
+    ]
+  }

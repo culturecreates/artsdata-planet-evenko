@@ -1,0 +1,251 @@
+{
+    "venue": {
+      "id": "place_bell",
+      "name": "Place Bell",
+      "address1": "1950 Claude-Gagné Road",
+      "address2": null,
+      "address3": null,
+      "city": "Laval",
+      "country": "Canada",
+      "province": "Quebec",
+      "postal": "H7N 5H9",
+      "phone": null,
+      "fax": null,
+      "email": null,
+      "url": "",
+      "longitude": -73.721489,
+      "latitude": 45.555908
+    },
+    "events": [
+      {
+        "id": "e003842",
+        "leadin": null,
+        "name": "Pierce The Veil",
+        "date_tickets_visible": "2025-05-27T19:00:00.000-04:00",
+        "date_onsale": "2024-12-06T10:00:00.000-05:00",
+        "date_doors": "2025-05-27T18:00:00.000-04:00",
+        "date_showtime": "2025-05-27T19:00:00.000-04:00",
+        "url": "https://evenko.ca/en/events/place-bell/pierce-the-veil?code=e003842",
+        "url_tickets": {
+          "regular_tickets": [
+            "https://www.ticketmaster.ca/event/31006179749F1098?lang=en-ca&brand=placebell"
+          ],
+          "premium_tickets": [],
+          "other_tickets": [],
+          "advanced_tickets": "",
+          "restaurants_ticket": [],
+          "parking_ticket": [
+            "https://www.ticketmaster.ca/event/3100617974A1109A?lang=en-ca&brand=placebell"
+          ]
+        },
+        "eventTag": "Metal",
+        "is_free": false,
+        "is_private": false,
+        "is_music": true,
+        "is_sports": false,
+        "is_variety": false,
+        "is_humour": false,
+        "images": {
+          "large": "https://images.ctfassets.net/3yxl57nu0yl4/717nYmrEvPkxocRxUpDKNg/d5c3dd6adf414ef16c309c72098b1b98/pierce_the_veil_2025.jpg",
+          "small": "https://images.ctfassets.net/3yxl57nu0yl4/717nYmrEvPkxocRxUpDKNg/d5c3dd6adf414ef16c309c72098b1b98/pierce_the_veil_2025.jpg",
+          "splash": "https://images.ctfassets.net/3yxl57nu0yl4/717nYmrEvPkxocRxUpDKNg/d5c3dd6adf414ef16c309c72098b1b98/pierce_the_veil_2025.jpg",
+          "bellcentre": "https://images.ctfassets.net/3yxl57nu0yl4/717nYmrEvPkxocRxUpDKNg/d5c3dd6adf414ef16c309c72098b1b98/pierce_the_veil_2025.jpg",
+          "corona": null,
+          "featured": "https://images.ctfassets.net/3yxl57nu0yl4/717nYmrEvPkxocRxUpDKNg/d5c3dd6adf414ef16c309c72098b1b98/pierce_the_veil_2025.jpg",
+          "featured_thumb": "https://images.ctfassets.net/3yxl57nu0yl4/717nYmrEvPkxocRxUpDKNg/d5c3dd6adf414ef16c309c72098b1b98/pierce_the_veil_2025.jpg"
+        },
+        "admission_age": "everyone",
+        "status": [
+          "buy_now"
+        ],
+        "artists": [
+          {
+            "role": "main_attraction",
+            "name": "Pierce The Veil",
+            "website_url": "",
+            "myspace_url": null,
+            "facebook_url": null,
+            "youtube_url": "https://www.youtube.com/embed/r2kThPtHO80",
+            "video_url": "https://www.youtube.com/embed/r2kThPtHO80",
+            "twitter_url": null,
+            "instagram_url": null,
+            "spotify_id": "https://open.spotify.com/artist/4iJLPqClelZOBCBifm8Fzv"
+          },
+          {
+            "role": "special_guest",
+            "name": "Sleeping With Sirens",
+            "website_url": "",
+            "myspace_url": null,
+            "facebook_url": null,
+            "youtube_url": "",
+            "video_url": "",
+            "twitter_url": null,
+            "instagram_url": null,
+            "spotify_id": ""
+          },
+          {
+            "role": "special_guest",
+            "name": "Beach Weather",
+            "website_url": "",
+            "myspace_url": null,
+            "facebook_url": null,
+            "youtube_url": "",
+            "video_url": "",
+            "twitter_url": null,
+            "instagram_url": null,
+            "spotify_id": ""
+          }
+        ],
+        "tickets": {
+          "code": "regular",
+          "values": {
+            "label": [
+              {
+                "data": "Régulier",
+                "locale": "fr_CA",
+                "channel": null
+              },
+              {
+                "data": "Regular",
+                "locale": "en_CA",
+                "channel": null
+              }
+            ]
+          },
+          "created": "2023-06-14T18:02:09+00:00",
+          "updated": "2023-09-18T19:22:46+00:00",
+          "regular_ticket_url": [
+            {
+              "data": "https://www.ticketmaster.ca/event/31006179749F1098?lang=fr-ca&brand=placebell",
+              "locale": "fr_CA"
+            },
+            {
+              "data": "https://www.ticketmaster.ca/event/31006179749F1098?lang=en-ca&brand=placebell",
+              "locale": "en_CA"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e003273",
+        "leadin": null,
+        "name": "Bullet For My Valentine & Trivium",
+        "date_tickets_visible": "2025-05-03T18:30:00.000-04:00",
+        "date_onsale": "2024-09-20T10:00:00.000-04:00",
+        "date_doors": "2025-05-03T17:30:00.000-04:00",
+        "date_showtime": "2025-05-03T18:30:00.000-04:00",
+        "url": "https://evenko.ca/en/events/place-bell/bullet-for-my-valentine-trivium?code=e003273",
+        "url_tickets": {
+          "regular_tickets": [
+            "https://www.ticketmaster.ca/event/3100612BE4FF3B06?lang=en-ca&brand=placebell"
+          ],
+          "premium_tickets": [],
+          "other_tickets": [],
+          "advanced_tickets": "",
+          "restaurants_ticket": [],
+          "parking_ticket": [
+            "https://www.ticketmaster.ca/event/3100612BE5013B09?lang=en-ca&brand=placebell"
+          ]
+        },
+        "eventTag": "Metal",
+        "is_free": false,
+        "is_private": false,
+        "is_music": true,
+        "is_sports": false,
+        "is_variety": false,
+        "is_humour": false,
+        "images": {
+          "large": "https://images.ctfassets.net/3yxl57nu0yl4/3EobVerfLCnf8dg0zZYAus/ad56851e6c6bbcd0e4074ea19f58f015/bullet_valentine_trivium_2025.jpg",
+          "small": "https://images.ctfassets.net/3yxl57nu0yl4/3EobVerfLCnf8dg0zZYAus/ad56851e6c6bbcd0e4074ea19f58f015/bullet_valentine_trivium_2025.jpg",
+          "splash": "https://images.ctfassets.net/3yxl57nu0yl4/3EobVerfLCnf8dg0zZYAus/ad56851e6c6bbcd0e4074ea19f58f015/bullet_valentine_trivium_2025.jpg",
+          "bellcentre": "https://images.ctfassets.net/3yxl57nu0yl4/3EobVerfLCnf8dg0zZYAus/ad56851e6c6bbcd0e4074ea19f58f015/bullet_valentine_trivium_2025.jpg",
+          "corona": null,
+          "featured": "https://images.ctfassets.net/3yxl57nu0yl4/3EobVerfLCnf8dg0zZYAus/ad56851e6c6bbcd0e4074ea19f58f015/bullet_valentine_trivium_2025.jpg",
+          "featured_thumb": "https://images.ctfassets.net/3yxl57nu0yl4/3EobVerfLCnf8dg0zZYAus/ad56851e6c6bbcd0e4074ea19f58f015/bullet_valentine_trivium_2025.jpg"
+        },
+        "admission_age": "everyone",
+        "status": [
+          "buy_now"
+        ],
+        "artists": [
+          {
+            "role": "main_attraction",
+            "name": "Bullet For My Valentine",
+            "website_url": "",
+            "myspace_url": null,
+            "facebook_url": null,
+            "youtube_url": "https://www.youtube.com/embed/9sTQ0QdkN3Q",
+            "video_url": "https://www.youtube.com/embed/9sTQ0QdkN3Q",
+            "twitter_url": null,
+            "instagram_url": null,
+            "spotify_id": "https://open.spotify.com/artist/7iWiAD5LLKyiox2grgfmUT"
+          },
+          {
+            "role": "main_attraction",
+            "name": "Trivium",
+            "website_url": "",
+            "myspace_url": null,
+            "facebook_url": null,
+            "youtube_url": "https://www.youtube.com/embed/nkznWN-_vSM",
+            "video_url": "https://www.youtube.com/embed/nkznWN-_vSM",
+            "twitter_url": null,
+            "instagram_url": null,
+            "spotify_id": "https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP"
+          },
+          {
+            "role": "special_guest",
+            "name": "August Burns Red",
+            "website_url": "",
+            "myspace_url": null,
+            "facebook_url": null,
+            "youtube_url": "",
+            "video_url": "",
+            "twitter_url": null,
+            "instagram_url": null,
+            "spotify_id": ""
+          },
+          {
+            "role": "special_guest",
+            "name": "Bleed From Within",
+            "website_url": "",
+            "myspace_url": null,
+            "facebook_url": null,
+            "youtube_url": "",
+            "video_url": "",
+            "twitter_url": null,
+            "instagram_url": null,
+            "spotify_id": ""
+          }
+        ],
+        "tickets": {
+          "code": "regular",
+          "values": {
+            "label": [
+              {
+                "data": "Régulier",
+                "locale": "fr_CA",
+                "channel": null
+              },
+              {
+                "data": "Regular",
+                "locale": "en_CA",
+                "channel": null
+              }
+            ]
+          },
+          "created": "2023-06-14T18:02:09+00:00",
+          "updated": "2023-09-18T19:22:46+00:00",
+          "regular_ticket_url": [
+            {
+              "data": "https://www.ticketmaster.ca/event/3100612BE4FF3B06?lang=fr-ca&brand=placebell",
+              "locale": "fr_CA"
+            },
+            {
+              "data": "https://www.ticketmaster.ca/event/3100612BE4FF3B06?lang=en-ca&brand=placebell",
+              "locale": "en_CA"
+            }
+          ]
+        }
+      }
+    ]
+  }
