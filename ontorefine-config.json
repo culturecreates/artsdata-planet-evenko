@@ -178,8 +178,13 @@
                         "source": "constant",
                         "constant": "http://kg.artsdata.ca/resource/K11-240"
                       },
+                      "transformation": {
+                        "language": "raw"
+                      },
                       "valueType": {
-                        "type": "literal"
+                        "type": "iri",
+                        "typeMappings": [],
+                        "propertyMappings": []
                       }
                     }
                   ]
