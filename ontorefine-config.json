@@ -43,7 +43,7 @@
         "mapping": {
           "baseIRI": "http://example.com/base/",
           "namespaces": {
-            "event": "http://spektrix.com/event/",
+            "event": "http://evenko.ca/event/",
             "schema": "http://schema.org/",
             "xsd": "http://www.w3.org/2001/XMLSchema#"
           },
@@ -179,9 +179,7 @@
                         "constant": "http://kg.artsdata.ca/resource/K11-240"
                       },
                       "valueType": {
-                        "type": "iri",
-                        "typeMappings": [],
-                        "propertyMappings": []
+                        "type": "literal"
                       }
                     }
                   ]
@@ -319,9 +317,7 @@
                                   "columnName": "_ - artists - _ - youtube_url"
                                 },
                                 "valueType": {
-                                  "type": "iri",
-                                  "typeMappings": [],
-                                  "propertyMappings": []
+                                  "type": "literal"
                                 }
                               },
                               {
@@ -330,9 +326,7 @@
                                   "columnName": "_ - artists - _ - video_url"
                                 },
                                 "valueType": {
-                                  "type": "iri",
-                                  "typeMappings": [],
-                                  "propertyMappings": []
+                                  "type": "literal"
                                 }
                               }
                             ]
@@ -392,9 +386,7 @@
                                   "columnName": "_ - images - large"
                                 },
                                 "valueType": {
-                                  "type": "iri",
-                                  "typeMappings": [],
-                                  "propertyMappings": []
+                                  "type": "literal"
                                 }
                               }
                             ]
