@@ -213,7 +213,7 @@
                     {
                       "valueSource": {
                         "source": "column",
-                        "columnName": "_ - id"
+                        "columnName": "_ - url_tickets - regular_tickets - regular_tickets"
                       },
                       "valueType": {
                         "type": "unique_bnode",
@@ -397,7 +397,7 @@
                     {
                       "valueSource": {
                         "source": "column",
-                        "columnName": "_ - id"
+                        "columnName": "_ - images - large"
                       },
                       "valueType": {
                         "type": "unique_bnode",
@@ -431,8 +431,13 @@
                                   "source": "column",
                                   "columnName": "_ - images - large"
                                 },
+                                "transformation": {
+                                  "language": "raw"
+                                },
                                 "valueType": {
-                                  "type": "literal"
+                                  "type": "iri",
+                                  "typeMappings": [],
+                                  "propertyMappings": []
                                 }
                               }
                             ]
@@ -601,6 +606,62 @@
                                           },
                                           "valueType": {
                                             "type": "literal"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "property": {
+                                        "valueSource": {
+                                          "source": "constant",
+                                          "constant": "sameAs"
+                                        },
+                                        "transformation": {
+                                          "language": "prefix",
+                                          "expression": "schema"
+                                        }
+                                      },
+                                      "values": [
+                                        {
+                                          "valueSource": {
+                                            "source": "column",
+                                            "columnName": "_ - artists - _ - youtube_url"
+                                          },
+                                          "transformation": {
+                                            "language": "raw"
+                                          },
+                                          "valueType": {
+                                            "type": "iri",
+                                            "typeMappings": [],
+                                            "propertyMappings": []
+                                          }
+                                        },
+                                        {
+                                          "valueSource": {
+                                            "source": "column",
+                                            "columnName": "_ - artists - _ - video_url"
+                                          },
+                                          "transformation": {
+                                            "language": "raw"
+                                          },
+                                          "valueType": {
+                                            "type": "iri",
+                                            "typeMappings": [],
+                                            "propertyMappings": []
+                                          }
+                                        },
+                                        {
+                                          "valueSource": {
+                                            "source": "column",
+                                            "columnName": "_ - artists - _ - spotify_id"
+                                          },
+                                          "transformation": {
+                                            "language": "raw"
+                                          },
+                                          "valueType": {
+                                            "type": "iri",
+                                            "typeMappings": [],
+                                            "propertyMappings": []
                                           }
                                         }
                                       ]
