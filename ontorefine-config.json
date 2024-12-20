@@ -39,6 +39,15 @@
         "description": "Remove rows"
       },
       {
+        "op": "core/fill-down",
+        "engineConfig": {
+          "facets": [],
+          "mode": "record-based"
+        },
+        "columnName": "_ - id",
+        "description": "Fill down cells in column _ - id"
+      },
+      {
         "op": "mapping-editor/save-rdf-mapping",
         "mapping": {
           "baseIRI": "http://example.com/base/",
@@ -238,8 +247,13 @@
                                   "source": "column",
                                   "columnName": "_ - url_tickets - regular_tickets - regular_tickets"
                                 },
+                                "transformation": {
+                                  "language": "raw"
+                                },
                                 "valueType": {
-                                  "type": "literal"
+                                  "type": "iri",
+                                  "typeMappings": [],
+                                  "propertyMappings": []
                                 }
                               }
                             ]
@@ -253,7 +267,7 @@
                   "property": {
                     "valueSource": {
                       "source": "constant",
-                      "constant": "performers"
+                      "constant": "performer"
                     },
                     "transformation": {
                       "language": "prefix",
@@ -263,8 +277,11 @@
                   "values": [
                     {
                       "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - artists - _ - name"
+                        "source": "row_index"
+                      },
+                      "transformation": {
+                        "language": "grel",
+                        "expression": "if(cells[\"_ - artists - _ - role\"].value == 'main_attraction', cells[\"_ - artists - _ - name\"].value, null)"
                       },
                       "valueType": {
                         "type": "unique_bnode",
@@ -272,7 +289,7 @@
                           {
                             "valueSource": {
                               "source": "constant",
-                              "constant": "performer"
+                              "constant": "PerformingGroup"
                             },
                             "transformation": {
                               "language": "prefix",
@@ -308,7 +325,7 @@
                             "property": {
                               "valueSource": {
                                 "source": "constant",
-                                "constant": "url"
+                                "constant": "sameAs"
                               },
                               "transformation": {
                                 "language": "prefix",
@@ -321,8 +338,27 @@
                                   "source": "column",
                                   "columnName": "_ - artists - _ - youtube_url"
                                 },
+                                "transformation": {
+                                  "language": "raw"
+                                },
                                 "valueType": {
-                                  "type": "literal"
+                                  "type": "iri",
+                                  "typeMappings": [],
+                                  "propertyMappings": []
+                                }
+                              },
+                              {
+                                "valueSource": {
+                                  "source": "column",
+                                  "columnName": "_ - artists - _ - spotify_id"
+                                },
+                                "transformation": {
+                                  "language": "raw"
+                                },
+                                "valueType": {
+                                  "type": "iri",
+                                  "typeMappings": [],
+                                  "propertyMappings": []
                                 }
                               },
                               {
@@ -330,8 +366,13 @@
                                   "source": "column",
                                   "columnName": "_ - artists - _ - video_url"
                                 },
+                                "transformation": {
+                                  "language": "raw"
+                                },
                                 "valueType": {
-                                  "type": "literal"
+                                  "type": "iri",
+                                  "typeMappings": [],
+                                  "propertyMappings": []
                                 }
                               }
                             ]
@@ -395,8 +436,246 @@
                                 }
                               }
                             ]
+                          },
+                          {
+                            "property": {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "copyrightNotice"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "schema"
+                              }
+                            },
+                            "values": [
+                              {
+                                "valueSource": {
+                                  "source": "constant",
+                                  "constant": "© Copyright source: evenko 2024. All rights reserved."
+                                },
+                                "valueType": {
+                                  "type": "language_literal",
+                                  "language": {
+                                    "valueSource": {
+                                      "source": "constant",
+                                      "constant": "en"
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "valueSource": {
+                                  "source": "constant",
+                                  "constant": "© Copyright source: evenko 2024. Tous droits réservés."
+                                },
+                                "valueType": {
+                                  "type": "language_literal",
+                                  "language": {
+                                    "valueSource": {
+                                      "source": "constant",
+                                      "constant": "fr"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
                           }
                         ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "property": {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "performer"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "schema"
+                    }
+                  },
+                  "values": [
+                    {
+                      "valueSource": {
+                        "source": "row_index"
+                      },
+                      "transformation": {
+                        "language": "grel",
+                        "expression": "if(cells[\"_ - artists - _ - role\"].value == 'special_guest', cells[\"_ - artists - _ - name\"].value, null)"
+                      },
+                      "valueType": {
+                        "type": "unique_bnode",
+                        "typeMappings": [
+                          {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "PerformanceRole"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          }
+                        ],
+                        "propertyMappings": [
+                          {
+                            "property": {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "roleName"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "schema"
+                              }
+                            },
+                            "values": [
+                              {
+                                "valueSource": {
+                                  "source": "constant",
+                                  "constant": "special_guest"
+                                },
+                                "valueType": {
+                                  "type": "literal"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "property": {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "performer"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "schema"
+                              }
+                            },
+                            "values": [
+                              {
+                                "valueSource": {
+                                  "source": "row_index"
+                                },
+                                "transformation": {
+                                  "language": "grel",
+                                  "expression": "if(cells[\"_ - artists - _ - role\"].value == 'special_guest', cells[\"_ - artists - _ - name\"].value, null)"
+                                },
+                                "valueType": {
+                                  "type": "unique_bnode",
+                                  "typeMappings": [
+                                    {
+                                      "valueSource": {
+                                        "source": "constant",
+                                        "constant": "PerformingGroup"
+                                      },
+                                      "transformation": {
+                                        "language": "prefix",
+                                        "expression": "schema"
+                                      }
+                                    }
+                                  ],
+                                  "propertyMappings": [
+                                    {
+                                      "property": {
+                                        "valueSource": {
+                                          "source": "constant",
+                                          "constant": "name"
+                                        },
+                                        "transformation": {
+                                          "language": "prefix",
+                                          "expression": "schema"
+                                        }
+                                      },
+                                      "values": [
+                                        {
+                                          "valueSource": {
+                                            "source": "row_index"
+                                          },
+                                          "transformation": {
+                                            "language": "grel",
+                                            "expression": "if(cells[\"_ - artists - _ - role\"].value == 'special_guest', cells[\"_ - artists - _ - name\"].value, null)"
+                                          },
+                                          "valueType": {
+                                            "type": "literal"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "property": {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "keyword"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "schema"
+                    }
+                  },
+                  "values": [
+                    {
+                      "valueSource": {
+                        "source": "column",
+                        "columnName": "_ - eventTag"
+                      },
+                      "valueType": {
+                        "type": "literal"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "property": {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "additionalType"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "schema"
+                    }
+                  },
+                  "values": [
+                    {
+                      "valueSource": {
+                        "source": "row_index"
+                      },
+                      "transformation": {
+                        "language": "grel",
+                        "expression": "if(cells[\"_ - is_music\"].value == true, \"http://kg.artsdata.ca/resource/MusicPerformance\", null)"
+                      },
+                      "valueType": {
+                        "type": "iri",
+                        "typeMappings": [],
+                        "propertyMappings": []
+                      }
+                    },
+                    {
+                      "valueSource": {
+                        "source": "row_index"
+                      },
+                      "transformation": {
+                        "language": "grel",
+                        "expression": "if(cells[\"_ - is_humour\"].value == true, \"http://kg.artsdata.ca/resource/ComedyPerformance\", null)"
+                      },
+                      "valueType": {
+                        "type": "iri",
+                        "typeMappings": [],
+                        "propertyMappings": []
                       }
                     }
                   ]
