@@ -680,7 +680,7 @@
                   "property": {
                     "valueSource": {
                       "source": "constant",
-                      "constant": "keyword"
+                      "constant": "keywords"
                     },
                     "transformation": {
                       "language": "prefix",
@@ -690,8 +690,11 @@
                   "values": [
                     {
                       "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - eventTag"
+                        "source": "row_index"
+                      },
+                      "transformation": {
+                        "language": "grel",
+                        "expression": "if(cells[\"_ - eventTag\"].value != null, cells[\"_ - eventTag\"].value.split(','), null)"
                       },
                       "valueType": {
                         "type": "literal"
