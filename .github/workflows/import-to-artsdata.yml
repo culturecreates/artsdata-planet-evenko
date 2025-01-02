@@ -72,7 +72,7 @@ jobs:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v2
         with:
-          artifact: evenko-ca
+          artifact: place-bell
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadUrl: https://raw.githubusercontent.com/${{github.repository}}/${{github.ref}}/outputs/events.ttl
 
