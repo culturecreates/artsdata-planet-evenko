@@ -485,6 +485,60 @@
                                 }
                               }
                             ]
+                          },
+                          {
+                            "property": {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "disambiguatingDescription"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "schema"
+                              }
+                            },
+                            "values": [
+                              {
+                                "valueSource": {
+                                  "source": "row_index"
+                                },
+                                "transformation": {
+                                  "language": "grel",
+                                  "expression": "\"Image of \" + cells[\"_ - name\"].value + \", sourced from evenko.ca\""
+                                },
+                                "valueType": {
+                                  "type": "literal"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "property": {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "usageInfo"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "schema"
+                              }
+                            },
+                            "values": [
+                              {
+                                "valueSource": {
+                                  "source": "constant",
+                                  "constant": "https://kg.artsdata.ca/doc/image_policy"
+                                },
+                                "transformation": {
+                                  "language": "raw"
+                                },
+                                "valueType": {
+                                  "type": "iri",
+                                  "typeMappings": [],
+                                  "propertyMappings": []
+                                }
+                              }
+                            ]
                           }
                         ]
                       }
@@ -517,7 +571,7 @@
                           {
                             "valueSource": {
                               "source": "constant",
-                              "constant": "PerformanceRole"
+                              "constant": "Role"
                             },
                             "transformation": {
                               "language": "prefix",
@@ -735,6 +789,34 @@
                       "transformation": {
                         "language": "grel",
                         "expression": "if(cells[\"_ - is_humour\"].value == true, \"http://kg.artsdata.ca/resource/ComedyPerformance\", null)"
+                      },
+                      "valueType": {
+                        "type": "iri",
+                        "typeMappings": [],
+                        "propertyMappings": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "property": {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "url"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "schema"
+                    }
+                  },
+                  "values": [
+                    {
+                      "valueSource": {
+                        "source": "column",
+                        "columnName": "_ - url"
+                      },
+                      "transformation": {
+                        "language": "raw"
                       },
                       "valueType": {
                         "type": "iri",
