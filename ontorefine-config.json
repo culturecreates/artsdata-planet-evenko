@@ -527,7 +527,7 @@
                               {
                                 "valueSource": {
                                   "source": "constant",
-                                  "constant": "https://kg.artsdata.ca/doc/image_policy"
+                                  "constant": "https://kg.artsdata.ca/doc/image-policy"
                                 },
                                 "transformation": {
                                   "language": "raw"
