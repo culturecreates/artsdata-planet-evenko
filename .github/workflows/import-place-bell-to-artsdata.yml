@@ -1,9 +1,9 @@
-name: Fetch Evenko entities
+name: Fetch place-bell Evenko entities
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 10 * * 4'
+    - cron: '0 10 * * 4' # Runs 10AM GMT on Thursdays
 
 jobs:
   process-using-ontorefine:
