@@ -8,40 +8,40 @@ event:e003842 a schema:Event;
   schema:startDate "2025-05-27T19:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-05-27T18:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b1;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b2, _:3273141392ce41f6a4fffb8c8084484b4,
-    _:3273141392ce41f6a4fffb8c8084484b6;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b3;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c1;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c2, _:21b9af14ece4466592bb8bb29b04988c4,
+    _:21b9af14ece4466592bb8bb29b04988c6;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c3;
   schema:keywords "Metal";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/pierce-the-veil?code=e003842> .
 
-_:3273141392ce41f6a4fffb8c8084484b1 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c1 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006179749F1098?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b2 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c2 a schema:PerformingGroup;
   schema:name "Pierce The Veil";
   schema:sameAs <https://www.youtube.com/embed/r2kThPtHO80>, <https://open.spotify.com/artist/4iJLPqClelZOBCBifm8Fzv> .
 
-_:3273141392ce41f6a4fffb8c8084484b3 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c3 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/717nYmrEvPkxocRxUpDKNg/d5c3dd6adf414ef16c309c72098b1b98/pierce_the_veil_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Pierce The Veil, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b4 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c4 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b5 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c5 .
 
-_:3273141392ce41f6a4fffb8c8084484b5 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c5 a schema:PerformingGroup;
   schema:name "Sleeping With Sirens" .
 
-_:3273141392ce41f6a4fffb8c8084484b6 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c6 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b7 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c7 .
 
-_:3273141392ce41f6a4fffb8c8084484b7 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c7 a schema:PerformingGroup;
   schema:name "Beach Weather" .
 
 event:e003450 a schema:Event;
@@ -49,48 +49,48 @@ event:e003450 a schema:Event;
   schema:startDate "2025-04-11T18:30:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-04-11T17:30:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b8;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b9, _:3273141392ce41f6a4fffb8c8084484b11,
-    _:3273141392ce41f6a4fffb8c8084484b13, _:3273141392ce41f6a4fffb8c8084484b15;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b10;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c8;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c9, _:21b9af14ece4466592bb8bb29b04988c11,
+    _:21b9af14ece4466592bb8bb29b04988c13, _:21b9af14ece4466592bb8bb29b04988c15;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c10;
   schema:keywords "Metal";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/killswitch-engage?code=e003450> .
 
-_:3273141392ce41f6a4fffb8c8084484b8 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c8 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006157BC5D257B?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b9 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c9 a schema:PerformingGroup;
   schema:name "Killswitch Engage";
   schema:sameAs <https://www.youtube.com/embed/bwEHZfvYPGA>, <https://open.spotify.com/artist/37394IP6uhnjIpsawpMu4l> .
 
-_:3273141392ce41f6a4fffb8c8084484b10 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c10 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/6buZs9BCp3t47PqxRhZ3O8/4bb6ae6b68d0bac7ec837efe8e49c39f/killswitch_engage_2025_2.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Killswitch Engage, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b11 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c11 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b12 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c12 .
 
-_:3273141392ce41f6a4fffb8c8084484b12 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c12 a schema:PerformingGroup;
   schema:name "Kublai Khan TX";
   schema:sameAs <https://www.youtube.com/embed/ZIq1BDibluk>, <https://open.spotify.com/artist/5BIOo2mCAokFcLHXO2Llb4> .
 
-_:3273141392ce41f6a4fffb8c8084484b13 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c13 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b14 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c14 .
 
-_:3273141392ce41f6a4fffb8c8084484b14 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c14 a schema:PerformingGroup;
   schema:name "Fit For A King" .
 
-_:3273141392ce41f6a4fffb8c8084484b15 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c15 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b16 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c16 .
 
-_:3273141392ce41f6a4fffb8c8084484b16 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c16 a schema:PerformingGroup;
   schema:name "Frozen Soul" .
 
 event:e003273 a schema:Event;
@@ -98,77 +98,120 @@ event:e003273 a schema:Event;
   schema:startDate "2025-05-03T18:30:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-05-03T17:30:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b17;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b18, _:3273141392ce41f6a4fffb8c8084484b20,
-    _:3273141392ce41f6a4fffb8c8084484b21, _:3273141392ce41f6a4fffb8c8084484b23;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b19;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c17;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c18, _:21b9af14ece4466592bb8bb29b04988c20,
+    _:21b9af14ece4466592bb8bb29b04988c21, _:21b9af14ece4466592bb8bb29b04988c23;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c19;
   schema:keywords "Metal";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/bullet-for-my-valentine-trivium?code=e003273> .
 
-_:3273141392ce41f6a4fffb8c8084484b17 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c17 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100612BE4FF3B06?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b18 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c18 a schema:PerformingGroup;
   schema:name "Bullet For My Valentine";
   schema:sameAs <https://www.youtube.com/embed/9sTQ0QdkN3Q>, <https://open.spotify.com/artist/7iWiAD5LLKyiox2grgfmUT> .
 
-_:3273141392ce41f6a4fffb8c8084484b19 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c19 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/3EobVerfLCnf8dg0zZYAus/ad56851e6c6bbcd0e4074ea19f58f015/bullet_valentine_trivium_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Bullet For My Valentine & Trivium, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b20 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c20 a schema:PerformingGroup;
   schema:name "Trivium";
   schema:sameAs <https://www.youtube.com/embed/nkznWN-_vSM>, <https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP> .
 
-_:3273141392ce41f6a4fffb8c8084484b21 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c21 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b22 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c22 .
 
-_:3273141392ce41f6a4fffb8c8084484b22 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c22 a schema:PerformingGroup;
   schema:name "August Burns Red" .
 
-_:3273141392ce41f6a4fffb8c8084484b23 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c23 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b24 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c24 .
 
-_:3273141392ce41f6a4fffb8c8084484b24 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c24 a schema:PerformingGroup;
   schema:name "Bleed From Within" .
+
+event:e004869 a schema:Event;
+  schema:name "Darius Rucker ";
+  schema:startDate "2025-10-25T19:00:00.000-04:00"^^xsd:dateTime;
+  schema:doorTime "2025-10-25T18:00:00.000-04:00"^^xsd:dateTime;
+  schema:location <http://kg.artsdata.ca/resource/K11-240>;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c25;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c26, _:21b9af14ece4466592bb8bb29b04988c28,
+    _:21b9af14ece4466592bb8bb29b04988c30;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c27;
+  schema:keywords "Country";
+  schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
+  schema:url <https://evenko.ca/en/events/place-bell/darius-rucker?code=e004869> .
+
+_:21b9af14ece4466592bb8bb29b04988c25 a schema:Offer;
+  schema:url <https://www.ticketmaster.ca/event/3100625AE7C347B2?lang=en-ca&brand=placebell> .
+
+_:21b9af14ece4466592bb8bb29b04988c26 a schema:PerformingGroup;
+  schema:name "Darius Rucker ";
+  schema:sameAs <https://www.youtube.com/embed/hvKyBcCDOB4>, <https://open.spotify.com/artist/7FY5V3XMwlNBPitEjXowHQ> .
+
+_:21b9af14ece4466592bb8bb29b04988c27 a schema:ImageObject;
+  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/UylBtVD5Dg9tZFObDKPUs/64f1a5556453dbefaac700ea789957e8/darius_rucker_2025.jpg>;
+  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
+    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
+  schema:disambiguatingDescription "Image of Darius Rucker , sourced from evenko.ca";
+  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
+
+_:21b9af14ece4466592bb8bb29b04988c28 a schema:Role;
+  schema:roleName "special_guest";
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c29 .
+
+_:21b9af14ece4466592bb8bb29b04988c29 a schema:PerformingGroup;
+  schema:name "Tyler Braden";
+  schema:sameAs <https://www.youtube.com/embed/hMfWn4XuG5E>, <https://open.spotify.com/artist/63wjVVauFUQ4gBw6QXTT5N> .
+
+_:21b9af14ece4466592bb8bb29b04988c30 a schema:Role;
+  schema:roleName "special_guest";
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c31 .
+
+_:21b9af14ece4466592bb8bb29b04988c31 a schema:PerformingGroup;
+  schema:name "Kashus Culpepper";
+  schema:sameAs <https://www.youtube.com/embed/xA7-Qsprjps>, <https://open.spotify.com/artist/2MPe4h9blynt1CfCkMku6j> .
 
 event:e004810 a schema:Event;
   schema:name "Wu-Tang Clan";
   schema:startDate "2025-07-13T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-07-13T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b25;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b26, _:3273141392ce41f6a4fffb8c8084484b28;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b27;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c32;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c33, _:21b9af14ece4466592bb8bb29b04988c35;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c34;
   schema:keywords "Hip-Hop", "Rap";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/wu-tang-clan?code=e004810> .
 
-_:3273141392ce41f6a4fffb8c8084484b25 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c32 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100624DDC0B42F4?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b26 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c33 a schema:PerformingGroup;
   schema:name "Wu-Tang Clan";
   schema:sameAs <https://www.youtube.com/embed/PBwAxmrE194>, <https://open.spotify.com/artist/34EP7KEpOjXcM2TCat1ISk> .
 
-_:3273141392ce41f6a4fffb8c8084484b27 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c34 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/5xpOkLkxzFfjJHzjcwfswo/acf2a28f5c60ad8a6fa2c40107d9c09f/PB-250713-WuTangClan-Web-Visuels-RS680x473-EN.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Wu-Tang Clan, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b28 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c35 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b29 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c36 .
 
-_:3273141392ce41f6a4fffb8c8084484b29 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c36 a schema:PerformingGroup;
   schema:name "Run The Jewels" .
 
 event:e004722 a schema:Event;
@@ -176,21 +219,21 @@ event:e004722 a schema:Event;
   schema:startDate "2025-06-06T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-06-06T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b30;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b31;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b32;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c37;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c38;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c39;
   schema:keywords "Electronic";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/justice?code=e004722> .
 
-_:3273141392ce41f6a4fffb8c8084484b30 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c37 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100624E997020F8?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b31 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c38 a schema:PerformingGroup;
   schema:name "Justice";
   schema:sameAs <https://www.youtube.com/embed/MZTg2WMb8Ps>, <https://open.spotify.com/artist/1gR0gsQYfi6joyO1dlp76N> .
 
-_:3273141392ce41f6a4fffb8c8084484b32 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c39 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/1h1FTbiQCRk6DsNb6Me8kq/2dd6891ed5c8afbadb1ee246075d8098/PB-250606-Justice-Web-Visuels-RS680x473-EN.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -202,21 +245,21 @@ event:e004638 a schema:Event;
   schema:startDate "2025-05-10T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-05-10T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b33;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b34;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b35;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c40;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c41;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c42;
   schema:keywords "Other", "Pop";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/rema?code=e004638> .
 
-_:3273141392ce41f6a4fffb8c8084484b33 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c40 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100623798321A31?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b34 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c41 a schema:PerformingGroup;
   schema:name "Rema";
   schema:sameAs <https://www.youtube.com/embed/MsZhYgo9MoA>, <https://open.spotify.com/artist/46pWGuE3dSwY3bMMXGBvVS> .
 
-_:3273141392ce41f6a4fffb8c8084484b35 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c42 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/15lU44rA8UgVOxiO2vzAfO/b7f85ddb74c324d4271c97a5eefe0800/rema_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -228,32 +271,32 @@ event:e004634 a schema:Event;
   schema:startDate "2025-06-07T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-06-07T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b36;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b37, _:3273141392ce41f6a4fffb8c8084484b39;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b38;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c43;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c44, _:21b9af14ece4466592bb8bb29b04988c46;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c45;
   schema:keywords "Country";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/cody-jinks?code=e004634> .
 
-_:3273141392ce41f6a4fffb8c8084484b36 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c43 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006245D72251E5?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b37 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c44 a schema:PerformingGroup;
   schema:name "Cody Jinks";
   schema:sameAs <https://www.youtube.com/embed/KrKpFPaWfvg>, <https://open.spotify.com/artist/2v7wIbCkIzxOfT3GnqCexD> .
 
-_:3273141392ce41f6a4fffb8c8084484b38 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c45 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/3iFkOilG3CFDYJDIwJLTTf/8f8dc8e109947c4299e709af434f6198/cody_jinks_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Cody Jinks, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b39 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c46 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b40 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c47 .
 
-_:3273141392ce41f6a4fffb8c8084484b40 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c47 a schema:PerformingGroup;
   schema:name "Ward Davis" .
 
 event:e004549 a schema:Event;
@@ -261,40 +304,40 @@ event:e004549 a schema:Event;
   schema:startDate "2025-05-20T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-05-20T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b41;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b42, _:3273141392ce41f6a4fffb8c8084484b44,
-    _:3273141392ce41f6a4fffb8c8084484b46;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b43;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c48;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c49, _:21b9af14ece4466592bb8bb29b04988c51,
+    _:21b9af14ece4466592bb8bb29b04988c53;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c50;
   schema:keywords "Hip-Hop", "Rap";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/cypress-hill?code=e004549> .
 
-_:3273141392ce41f6a4fffb8c8084484b41 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c48 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006236CEAE354F?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b42 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c49 a schema:PerformingGroup;
   schema:name "Cypress Hill";
   schema:sameAs <https://www.youtube.com/embed/UyFP2xFhl2s>, <https://open.spotify.com/artist/4P0dddbxPil35MNN9G2MEX> .
 
-_:3273141392ce41f6a4fffb8c8084484b43 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c50 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/hO2NqTFwnaAZCEDWDgMav/fe32227fbae60d0a59c58b8d880fa67d/cypress_hill_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Cypress Hill, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b44 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c51 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b45 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c52 .
 
-_:3273141392ce41f6a4fffb8c8084484b45 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c52 a schema:PerformingGroup;
   schema:name "De La Soul" .
 
-_:3273141392ce41f6a4fffb8c8084484b46 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c53 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b47 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c54 .
 
-_:3273141392ce41f6a4fffb8c8084484b47 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c54 a schema:PerformingGroup;
   schema:name "The Pharcyde" .
 
 event:e004544 a schema:Event;
@@ -302,20 +345,20 @@ event:e004544 a schema:Event;
   schema:startDate "2025-09-26T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-09-26T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b48;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b49;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b50;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c55;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c56;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c57;
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/the-australian-pink-floyd-show?code=e004544> .
 
-_:3273141392ce41f6a4fffb8c8084484b48 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c55 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100618FE98239A1?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b49 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c56 a schema:PerformingGroup;
   schema:name "The Australian Pink Floyd Show";
   schema:sameAs <https://www.youtube.com/embed/JRR91DebuSI> .
 
-_:3273141392ce41f6a4fffb8c8084484b50 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c57 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/6fVAFEB9Dh6nQln7G5Y3s8/9207a38a965f50300d50e2b6660cc0e7/tapfs_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -327,21 +370,21 @@ event:e004453 a schema:Event;
   schema:startDate "2025-10-03T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-10-03T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b51;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b52;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b53;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c58;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c59;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c60;
   schema:keywords "Jazz";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/ludovico-einaudi?code=e004453> .
 
-_:3273141392ce41f6a4fffb8c8084484b51 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c58 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100622FE2A64028?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b52 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c59 a schema:PerformingGroup;
   schema:name "Ludovico Einaudi";
   schema:sameAs <https://www.youtube.com/embed/a3a8axBKWXM>, <https://open.spotify.com/artist/2uFUBdaVGtyMqckSeCl0Qj> .
 
-_:3273141392ce41f6a4fffb8c8084484b53 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c60 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/vkD9r70XDD9BNXR7obFXK/c9ccd439e36c46b3aa9543632aca84f3/PB-251003-LudovicoEinaudi-Web-Visuels-680x473.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -353,32 +396,32 @@ event:e004416 a schema:Event;
   schema:startDate "2025-06-03T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-06-03T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b54;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b55, _:3273141392ce41f6a4fffb8c8084484b57;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b56;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c61;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c62, _:21b9af14ece4466592bb8bb29b04988c64;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c63;
   schema:keywords "Alternative", "Rock";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/one-ok-rock?code=e004416> .
 
-_:3273141392ce41f6a4fffb8c8084484b54 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c61 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100622FB9A132B0?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b55 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c62 a schema:PerformingGroup;
   schema:name "One OK Rock";
   schema:sameAs <https://www.youtube.com/embed/0cTdHe9UyMU>, <https://open.spotify.com/artist/7k73EtZwoPs516ZxE72KsO> .
 
-_:3273141392ce41f6a4fffb8c8084484b56 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c63 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/79KXVPeLFQGHYm0smTKUM6/25919d5c5c7aa09de958c6f4e83f419a/one_ok_rock_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of One OK Rock, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b57 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c64 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b58 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c65 .
 
-_:3273141392ce41f6a4fffb8c8084484b58 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c65 a schema:PerformingGroup;
   schema:name "Stand Atlantic" .
 
 event:e004326 a schema:Event;
@@ -386,32 +429,32 @@ event:e004326 a schema:Event;
   schema:startDate "2025-09-20T19:30:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-09-20T18:30:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b59;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b60, _:3273141392ce41f6a4fffb8c8084484b62;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b61;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c66;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c67, _:21b9af14ece4466592bb8bb29b04988c69;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c68;
   schema:keywords "Rock";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/lynyrd-skynyrd?code=e004326> .
 
-_:3273141392ce41f6a4fffb8c8084484b59 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c66 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006226D59B2A14?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b60 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c67 a schema:PerformingGroup;
   schema:name "Lynyrd Skynyrd";
   schema:sameAs <https://www.youtube.com/embed/Mqfwbf3X8SA>, <https://open.spotify.com/artist/4MVyzYMgTwdP7Z49wAZHx0> .
 
-_:3273141392ce41f6a4fffb8c8084484b61 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c68 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/7GZw8EQaghABpiEwHotTHf/d03c4e294bb3c0d5a2c19a4921bd099f/lynyrd_skynyrd_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Lynyrd Skynyrd, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b62 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c69 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b63 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c70 .
 
-_:3273141392ce41f6a4fffb8c8084484b63 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c70 a schema:PerformingGroup;
   schema:name "The Outlaws" .
 
 event:e004254 a schema:Event;
@@ -419,40 +462,40 @@ event:e004254 a schema:Event;
   schema:startDate "2025-05-07T19:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-05-07T18:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b64;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b65, _:3273141392ce41f6a4fffb8c8084484b67,
-    _:3273141392ce41f6a4fffb8c8084484b69;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b66;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c71;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c72, _:21b9af14ece4466592bb8bb29b04988c74,
+    _:21b9af14ece4466592bb8bb29b04988c76;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c73;
   schema:keywords "Rock";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/bush?code=e004254> .
 
-_:3273141392ce41f6a4fffb8c8084484b64 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c71 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006227ACCA18BC?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b65 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c72 a schema:PerformingGroup;
   schema:name "Bush";
   schema:sameAs <https://www.youtube.com/embed/AfyMZijcg3w>, <https://open.spotify.com/artist/78SHxLdtysAXgywQ4vE0Oa> .
 
-_:3273141392ce41f6a4fffb8c8084484b66 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c73 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/6xiBPLmd5MqmxGOSdOwzPq/cb08bb5257019774f145e1b044e50dfc/bush_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Bush, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b67 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c74 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b68 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c75 .
 
-_:3273141392ce41f6a4fffb8c8084484b68 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c75 a schema:PerformingGroup;
   schema:name "Rival Sons" .
 
-_:3273141392ce41f6a4fffb8c8084484b69 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c76 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b70 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c77 .
 
-_:3273141392ce41f6a4fffb8c8084484b70 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c77 a schema:PerformingGroup;
   schema:name "Filter" .
 
 event:e004104 a schema:Event;
@@ -460,32 +503,32 @@ event:e004104 a schema:Event;
   schema:startDate "2025-06-25T19:30:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-06-25T18:30:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b71;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b72, _:3273141392ce41f6a4fffb8c8084484b74;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b73;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c78;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c79, _:21b9af14ece4466592bb8bb29b04988c81;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c80;
   schema:keywords "Blues", "Rock";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/zz-top?code=e004104> .
 
-_:3273141392ce41f6a4fffb8c8084484b71 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c78 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/310061859B9320BC?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b72 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c79 a schema:PerformingGroup;
   schema:name "ZZ Top";
   schema:sameAs <https://www.youtube.com/embed/Gg9cNGHl-bg>, <https://open.spotify.com/artist/2AM4ilv6UzW0uMRuqKtDgN> .
 
-_:3273141392ce41f6a4fffb8c8084484b73 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c80 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/2izaj4A2wf6ccYAUJJsUow/02adcaf0d480771b6dcf0bccdb2730ad/zz_top_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of ZZ Top, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b74 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c81 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b75 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c82 .
 
-_:3273141392ce41f6a4fffb8c8084484b75 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c82 a schema:PerformingGroup;
   schema:name "The Wallflowers" .
 
 event:e003927 a schema:Event;
@@ -493,18 +536,18 @@ event:e003927 a schema:Event;
   schema:startDate "2025-04-29T19:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-04-29T18:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b76;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b77;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b78;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c83;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c84;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c85;
   schema:url <https://evenko.ca/en/events/place-bell/stars-on-ice?code=e003927> .
 
-_:3273141392ce41f6a4fffb8c8084484b76 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c83 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006179C1C97AEC?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b77 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c84 a schema:PerformingGroup;
   schema:name "Stars On Ice" .
 
-_:3273141392ce41f6a4fffb8c8084484b78 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c85 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/3yN0Hy4EFNZFHV7iCbPFRW/8fb2241e8345cc66c64463e7e534584c/SOI25-Laval-680x473-Generic.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -516,21 +559,21 @@ event:e003645 a schema:Event;
   schema:startDate "2025-04-02T19:30:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-04-02T18:30:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b79;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b80;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b81;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c86;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c87;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c88;
   schema:keywords "Classical", "Pop";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/il-volo?code=e003645> .
 
-_:3273141392ce41f6a4fffb8c8084484b79 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c86 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100616B011F4AED?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b80 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c87 a schema:PerformingGroup;
   schema:name "Il Volo";
   schema:sameAs <https://www.youtube.com/embed/vJ4xWqJZWkY>, <https://open.spotify.com/artist/0dE9ooTNz8iEKIKItRI66t> .
 
-_:3273141392ce41f6a4fffb8c8084484b81 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c88 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/1fpHJGQeLTy6x1BluebDYV/af591942a2053f32c34c2ffed803e3f3/il_volo_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -542,18 +585,18 @@ event:e003637 a schema:Event;
   schema:startDate "2025-04-10T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-04-10T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b82;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b83;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b84;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c89;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c90;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c91;
   schema:url <https://evenko.ca/en/events/place-bell/le-gala-des-fantastiques?code=e003637> .
 
-_:3273141392ce41f6a4fffb8c8084484b82 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c89 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006158DE25402D?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b83 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c90 a schema:PerformingGroup;
   schema:name "Le Gala des Fantastiques " .
 
-_:3273141392ce41f6a4fffb8c8084484b84 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c91 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/3JUgnZ3rX2EsK6NXlETYlL/7739c5e2a4591caf14210f5c8b67569a/680x473_gala_des_fantastiques_Evenko_website_rev.png>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -565,21 +608,21 @@ event:e003631 a schema:Event;
   schema:startDate "2025-04-07T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-04-07T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b85;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b86;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b87;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c92;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c93;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c94;
   schema:keywords "Hip-Hop", "Latin", "Pop";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/j-balvin?code=e003631> .
 
-_:3273141392ce41f6a4fffb8c8084484b85 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c92 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100616E3379663D?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b86 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c93 a schema:PerformingGroup;
   schema:name "J Balvin";
   schema:sameAs <https://www.youtube.com/embed/EuOjo4_2RIc>, <https://open.spotify.com/artist/1vyhD5VmyZ7KMfW5gqLgo5> .
 
-_:3273141392ce41f6a4fffb8c8084484b87 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c94 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/7peq0NAwUw8sSiF96pBs4Y/7b73cc6c6434766dcae6d18aaa19e6a6/J_Balvin_2025.png>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -591,48 +634,48 @@ event:e003528 a schema:Event;
   schema:startDate "2025-03-25T19:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-03-25T18:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b88;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b89, _:3273141392ce41f6a4fffb8c8084484b91,
-    _:3273141392ce41f6a4fffb8c8084484b93, _:3273141392ce41f6a4fffb8c8084484b95;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b90;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c95;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c96, _:21b9af14ece4466592bb8bb29b04988c98,
+    _:21b9af14ece4466592bb8bb29b04988c100, _:21b9af14ece4466592bb8bb29b04988c102;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c97;
   schema:keywords "Country";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/jelly-roll?code=e003528> .
 
-_:3273141392ce41f6a4fffb8c8084484b88 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c95 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006166B5471FCC?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b89 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c96 a schema:PerformingGroup;
   schema:name "Jelly Roll";
   schema:sameAs <https://www.youtube.com/embed/HcNILY4gtNI>, <https://open.spotify.com/artist/19k8AgwwTSxeaxkOuCQEJs> .
 
-_:3273141392ce41f6a4fffb8c8084484b90 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c97 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/7DmrHB0UCJFF1ivyyuTB8B/5b5957f4140e2f15f031646832dd5101/jelly_roll_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Jelly Roll, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b91 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c98 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b92 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c99 .
 
-_:3273141392ce41f6a4fffb8c8084484b92 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c99 a schema:PerformingGroup;
   schema:name "Josh Ross";
   schema:sameAs <https://www.youtube.com/embed/FUVzZjkhbEo>, <https://open.spotify.com/artist/1ZGTSMjK1D2HrpPTOh916U> .
 
-_:3273141392ce41f6a4fffb8c8084484b93 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c100 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b94 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c101 .
 
-_:3273141392ce41f6a4fffb8c8084484b94 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c101 a schema:PerformingGroup;
   schema:name "Savannah Dexter " .
 
-_:3273141392ce41f6a4fffb8c8084484b95 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c102 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b96 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c103 .
 
-_:3273141392ce41f6a4fffb8c8084484b96 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c103 a schema:PerformingGroup;
   schema:name "Brabo Gator" .
 
 event:e003484 a schema:Event;
@@ -640,40 +683,40 @@ event:e003484 a schema:Event;
   schema:startDate "2025-05-05T18:45:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-05-05T18:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b97;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b98, _:3273141392ce41f6a4fffb8c8084484b100,
-    _:3273141392ce41f6a4fffb8c8084484b102;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b99;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c104;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c105, _:21b9af14ece4466592bb8bb29b04988c107,
+    _:21b9af14ece4466592bb8bb29b04988c109;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c106;
   schema:keywords "Rock";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/bachman-turner-overdrive?code=e003484> .
 
-_:3273141392ce41f6a4fffb8c8084484b97 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c104 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100615F9EB525AE?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b98 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c105 a schema:PerformingGroup;
   schema:name "Bachman Turner Overdrive ";
   schema:sameAs <https://www.youtube.com/embed/4cia_v4vxfE>, <https://open.spotify.com/artist/5q4AzEtCoYJyXjMMoEkSU5> .
 
-_:3273141392ce41f6a4fffb8c8084484b99 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c106 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/1SFpBklQTA0EMhDr3CmB9B/251c3972c371ed0870cd13786eebef3d/bto_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Bachman-Turner Overdrive, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b100 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c107 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b101 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c108 .
 
-_:3273141392ce41f6a4fffb8c8084484b101 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c108 a schema:PerformingGroup;
   schema:name "April Wine" .
 
-_:3273141392ce41f6a4fffb8c8084484b102 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c109 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b103 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c110 .
 
-_:3273141392ce41f6a4fffb8c8084484b103 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c110 a schema:PerformingGroup;
   schema:name "The Headpins" .
 
 event:e003426 a schema:Event;
@@ -681,19 +724,19 @@ event:e003426 a schema:Event;
   schema:startDate "2025-05-31T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-05-31T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b104;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b105;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b106;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c111;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c112;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c113;
   schema:additionalType <http://kg.artsdata.ca/resource/ComedyPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/tai-tl?code=e003426> .
 
-_:3273141392ce41f6a4fffb8c8084484b104 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c111 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006150BEB02778?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b105 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c112 a schema:PerformingGroup;
   schema:name "Tai TL" .
 
-_:3273141392ce41f6a4fffb8c8084484b106 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c113 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/6L1Dtw2Qq69X07lOLKE7qE/29c9d66bbf0fa2189e3a5e73d46d08ea/tai_tl_2025_2.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -705,19 +748,19 @@ event:e003407 a schema:Event;
   schema:startDate "2025-08-16T19:30:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-08-16T18:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b107;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b108;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b109;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c114;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c115;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c116;
   schema:additionalType <http://kg.artsdata.ca/resource/ComedyPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/ricky-gervais?code=e003407> .
 
-_:3273141392ce41f6a4fffb8c8084484b107 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c114 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006151B40336D0?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b108 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c115 a schema:PerformingGroup;
   schema:name "Ricky Gervais" .
 
-_:3273141392ce41f6a4fffb8c8084484b109 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c116 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/7n1gvW4egvOT6oAn118vRG/e82baa10cccbd26b8f1f82c495f9c7f8/ricky_gervais_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -729,21 +772,21 @@ event:e003371 a schema:Event;
   schema:startDate "2025-06-18T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-06-18T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b110;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b111;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b112;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c117;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c118;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c119;
   schema:keywords "Classical";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/hauser?code=e003371> .
 
-_:3273141392ce41f6a4fffb8c8084484b110 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c117 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100613EA5DE2302?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b111 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c118 a schema:PerformingGroup;
   schema:name "HAUSER";
   schema:sameAs <https://www.youtube.com/embed/HIF8Xf63GaE>, <https://open.spotify.com/artist/2iSn12gFykgv92aTvPiH4s> .
 
-_:3273141392ce41f6a4fffb8c8084484b112 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c119 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/7pq8r1ZcIWD4XwQS8Ces0n/fc8f00befd7cf860ad1de169547ac40b/hauser_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -755,19 +798,19 @@ event:e003370 a schema:Event;
   schema:startDate "2025-04-17T19:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-04-17T18:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b113;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b114;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b115;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c120;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c121;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c122;
   schema:url <https://evenko.ca/en/events/place-bell/harlem-globetrotters?code=e003370> .
 
-_:3273141392ce41f6a4fffb8c8084484b113 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c120 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006107C1DD322F?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b114 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c121 a schema:PerformingGroup;
   schema:name "Harlem Globetrotters";
   schema:sameAs <https://www.youtube.com/embed/cgTDN9wcIfQ> .
 
-_:3273141392ce41f6a4fffb8c8084484b115 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c122 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/1bP8ce92sX2d9CjuMvOrB4/4e4d3b41f03b04c4734918791a08d497/harlem_globetrotters_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -779,21 +822,21 @@ event:e003346 a schema:Event;
   schema:startDate "2025-06-13T19:30:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-06-13T18:30:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b116;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b117;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b118;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c123;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c124;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c125;
   schema:keywords "Folk", "Rock";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/james-blunt?code=e003346> .
 
-_:3273141392ce41f6a4fffb8c8084484b116 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c123 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006139AFF73F57?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b117 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c124 a schema:PerformingGroup;
   schema:name "James Blunt";
   schema:sameAs <https://www.youtube.com/embed/b6U3xeYqdKQ>, <https://open.spotify.com/artist/7KMqksf0UMdyA0UCf4R3ux> .
 
-_:3273141392ce41f6a4fffb8c8084484b118 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c125 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/77ZMly9ZEt4Zvk9dU3SEcG/4222ef88f8c1bce5addab8817bbe1fdb/james_blunt_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -805,40 +848,40 @@ event:e003315 a schema:Event;
   schema:startDate "2025-03-10T19:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-03-10T18:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b119;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b120, _:3273141392ce41f6a4fffb8c8084484b122,
-    _:3273141392ce41f6a4fffb8c8084484b124;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b121;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c126;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c127, _:21b9af14ece4466592bb8bb29b04988c129,
+    _:21b9af14ece4466592bb8bb29b04988c131;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c128;
   schema:keywords "Alternative", "Rock";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/our-lady-peace?code=e003315> .
 
-_:3273141392ce41f6a4fffb8c8084484b119 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c126 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006134AAD83C70?brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b120 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c127 a schema:PerformingGroup;
   schema:name "Our Lady Peace";
   schema:sameAs <https://www.youtube.com/embed/8SzFaEqbLRM>, <https://open.spotify.com/artist/1lqW59DUEKqvcHc8mVWBtH> .
 
-_:3273141392ce41f6a4fffb8c8084484b121 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c128 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/3bN2ABctw9YgTfDJ2e10qT/1ec0fc23c08a0331d6ea6c58c1e72518/our_lady_peace_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Our Lady Peace, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b122 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c129 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b123 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c130 .
 
-_:3273141392ce41f6a4fffb8c8084484b123 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c130 a schema:PerformingGroup;
   schema:name "Collective Soul" .
 
-_:3273141392ce41f6a4fffb8c8084484b124 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c131 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b125 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c132 .
 
-_:3273141392ce41f6a4fffb8c8084484b125 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c132 a schema:PerformingGroup;
   schema:name "Wintersleep" .
 
 event:e003308 a schema:Event;
@@ -846,21 +889,21 @@ event:e003308 a schema:Event;
   schema:startDate "2025-05-24T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-05-24T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b126;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b127;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b128;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c133;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c134;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c135;
   schema:keywords "R&B", "Soul";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/teddy-swims?code=e003308> .
 
-_:3273141392ce41f6a4fffb8c8084484b126 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c133 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006137B0CC390E?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b127 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c134 a schema:PerformingGroup;
   schema:name "Teddy Swims";
   schema:sameAs <https://www.youtube.com/embed/_QWZQh0YYWA>, <https://open.spotify.com/artist/33qOK5uJ8AR2xuQQAhHump> .
 
-_:3273141392ce41f6a4fffb8c8084484b128 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c135 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/5fyeFTXohvVD7ztFMp5p2m/7370be00f50d37c6844295dada255054/teddy_Swims_2025_2.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -872,21 +915,21 @@ event:e003172 a schema:Event;
   schema:startDate "2025-04-24T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-04-24T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b129;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b130;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b131;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c136;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c137;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c138;
   schema:keywords "Alternative", "Rock";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/nick-cave-the-bad-seeds?code=e003172> .
 
-_:3273141392ce41f6a4fffb8c8084484b129 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c136 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100611EC28729F8?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b130 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c137 a schema:PerformingGroup;
   schema:name "Nick Cave & The Bad Seeds";
   schema:sameAs <https://www.youtube.com/embed/lDpnjE1LUvE>, <https://open.spotify.com/artist/4UXJsSlnKd7ltsrHebV79Q> .
 
-_:3273141392ce41f6a4fffb8c8084484b131 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c138 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/6fR5Qf8K1KfDzDorvTYhaG/69ef3b580812e47473f7b1d24ea25e9f/PB-250424-NickCave-Web-Visuels-Evenko-680x473-FR-EN.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -898,93 +941,52 @@ event:e002244 a schema:Event;
   schema:startDate "2025-05-17T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-05-17T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b132;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b133, _:3273141392ce41f6a4fffb8c8084484b135;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b134;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c139;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c140, _:21b9af14ece4466592bb8bb29b04988c142;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c141;
   schema:keywords "Pop";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/dean-lewis?code=e002244> .
 
-_:3273141392ce41f6a4fffb8c8084484b132 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c139 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/310060C5E33E4936?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b133 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c140 a schema:PerformingGroup;
   schema:name "Dean Lewis";
   schema:sameAs <https://www.youtube.com/embed/ANWHGaql-yc>, <https://open.spotify.com/artist/3QSQFmccmX81fWCUSPTS7y> .
 
-_:3273141392ce41f6a4fffb8c8084484b134 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c141 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/1GMhXi4zSKN2NaOvrZFVso/554c4cd3f81cb4d3cfe394b0174e9227/dean_lewis_2025.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Dean Lewis, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b135 a schema:Role;
+_:21b9af14ece4466592bb8bb29b04988c142 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b136 .
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c143 .
 
-_:3273141392ce41f6a4fffb8c8084484b136 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c143 a schema:PerformingGroup;
   schema:name "Henry Moodie " .
-
-event:e001854 a schema:Event;
-  schema:name "Mother Mother ";
-  schema:startDate "2025-03-02T19:00:00.000-05:00"^^xsd:dateTime;
-  schema:doorTime "2025-03-02T18:00:00.000-05:00"^^xsd:dateTime;
-  schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b137;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b138, _:3273141392ce41f6a4fffb8c8084484b140,
-    _:3273141392ce41f6a4fffb8c8084484b142;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b139;
-  schema:keywords "Rock";
-  schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
-  schema:url <https://evenko.ca/en/events/place-bell/mother-mother?code=e001854> .
-
-_:3273141392ce41f6a4fffb8c8084484b137 a schema:Offer;
-  schema:url <https://www.ticketmaster.ca/event/310060988DF318F1?lang=en-ca&brand=placebell> .
-
-_:3273141392ce41f6a4fffb8c8084484b138 a schema:PerformingGroup;
-  schema:name "Mother Mother";
-  schema:sameAs <https://www.youtube.com/embed/N3AShaHdZos>, <https://open.spotify.com/artist/0e86yPdC41PGRkLp2Q1Bph> .
-
-_:3273141392ce41f6a4fffb8c8084484b139 a schema:ImageObject;
-  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/3QwL0wNzrTDC2Y8odAwuyn/c6d62ff740e4c02095a33ca29283f2f2/mother_mother_2024.jpg>;
-  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
-    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
-  schema:disambiguatingDescription "Image of Mother Mother , sourced from evenko.ca";
-  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
-
-_:3273141392ce41f6a4fffb8c8084484b140 a schema:Role;
-  schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b141 .
-
-_:3273141392ce41f6a4fffb8c8084484b141 a schema:PerformingGroup;
-  schema:name "Cavetown" .
-
-_:3273141392ce41f6a4fffb8c8084484b142 a schema:Role;
-  schema:roleName "special_guest";
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b143 .
-
-_:3273141392ce41f6a4fffb8c8084484b143 a schema:PerformingGroup;
-  schema:name "Winnetka Bowling League" .
 
 event:e001848 a schema:Event;
   schema:name "Paul Mirabel";
   schema:startDate "2026-04-16T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2026-04-16T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b144;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b145;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b146;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c144;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c145;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c146;
   schema:additionalType <http://kg.artsdata.ca/resource/ComedyPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/paul-mirabel?code=e001848> .
 
-_:3273141392ce41f6a4fffb8c8084484b144 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c144 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100608BD67A4EBD?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b145 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c145 a schema:PerformingGroup;
   schema:name "Paul Mirabel" .
 
-_:3273141392ce41f6a4fffb8c8084484b146 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c146 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/2HwfJHNxcMqEwanY6Cpzr6/95efa867197e3aba7d8f45fc593c3f1a/paul_mirabel_2026.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -996,30 +998,30 @@ event:e001640 a schema:Event;
   schema:startDate "2025-06-12T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-06-12T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b147;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b148, _:3273141392ce41f6a4fffb8c8084484b150,
-    _:3273141392ce41f6a4fffb8c8084484b151;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b149;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c147;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c148, _:21b9af14ece4466592bb8bb29b04988c150,
+    _:21b9af14ece4466592bb8bb29b04988c151;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c149;
   schema:additionalType <http://kg.artsdata.ca/resource/ComedyPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/la-tournee-du-trio-ferrari-tsamere-lecaplain?code=e001640> .
 
-_:3273141392ce41f6a4fffb8c8084484b147 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c147 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100608BD8DE4F2D?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b148 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c148 a schema:PerformingGroup;
   schema:name "Jérémy Ferrari" .
 
-_:3273141392ce41f6a4fffb8c8084484b149 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c149 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/7CQMTAwF1SAHP6yAvIy35S/ee9b497c5de91487d5944b1b5b302d77/tournee_du_trio_2024.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of La Tournée du Trio - Ferrari, Tsamère, Lecaplain, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:3273141392ce41f6a4fffb8c8084484b150 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c150 a schema:PerformingGroup;
   schema:name "Arnaud Tsamère" .
 
-_:3273141392ce41f6a4fffb8c8084484b151 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c151 a schema:PerformingGroup;
   schema:name "Baptiste Lecaplain" .
 
 event:e001632 a schema:Event;
@@ -1027,19 +1029,19 @@ event:e001632 a schema:Event;
   schema:startDate "2025-04-12T20:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2025-04-12T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:3273141392ce41f6a4fffb8c8084484b152;
-  schema:performer _:3273141392ce41f6a4fffb8c8084484b153;
-  schema:image _:3273141392ce41f6a4fffb8c8084484b154;
+  schema:offers _:21b9af14ece4466592bb8bb29b04988c152;
+  schema:performer _:21b9af14ece4466592bb8bb29b04988c153;
+  schema:image _:21b9af14ece4466592bb8bb29b04988c154;
   schema:additionalType <http://kg.artsdata.ca/resource/ComedyPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/dave-gaudet?code=e001632> .
 
-_:3273141392ce41f6a4fffb8c8084484b152 a schema:Offer;
+_:21b9af14ece4466592bb8bb29b04988c152 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100608A8B1A17D1?lang=en-ca&brand=placebell> .
 
-_:3273141392ce41f6a4fffb8c8084484b153 a schema:PerformingGroup;
+_:21b9af14ece4466592bb8bb29b04988c153 a schema:PerformingGroup;
   schema:name "Dave Gaudet" .
 
-_:3273141392ce41f6a4fffb8c8084484b154 a schema:ImageObject;
+_:21b9af14ece4466592bb8bb29b04988c154 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/30IgZAsCcxmFD69iUDOyid/d61abcd82ef1de119280e0a441daabcf/dave_gaudet_2025.png>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
