@@ -75,6 +75,6 @@ jobs:
         uses: culturecreates/artsdata-pipeline-action@v2
         with:
           artifact: place-bell
-          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          publisher: "https://github.com/fjjulien#this"
           downloadUrl: https://raw.githubusercontent.com/${{github.repository}}/${{github.ref}}/outputs/events.ttl
 
