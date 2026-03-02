@@ -26,7 +26,7 @@ jobs:
 
       - name: Fetch entities
         run: |
-            curl https://evenko.ca/en/feeds/venue/place-bell -o data.json
+            curl https://evenko.ca/feeds/venue/place-bell?locale=en -o data.json
 
       - name: Transform into RDF
         run: |
