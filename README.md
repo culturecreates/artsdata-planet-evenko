@@ -8,3 +8,6 @@ Data source
 
 Evenko data is obtained using this URL:
 https://evenko.ca/feeds/venue/place-bell?locale=en
+
+French URL (to be added)
+https://evenko.ca/feeds/venue/place-bell?locale=fr
