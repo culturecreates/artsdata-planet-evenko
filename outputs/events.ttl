@@ -8,394 +8,125 @@ event:e009429 a schema:Event;
   schema:startDate "2027-09-14T19:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2027-09-14T18:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a2231;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a2232, _:0675e0f3c42c41abb6bf4240c574a2234;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a2233;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c47631;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c47632, _:7978d777ae7c49b696caf18d3e5c47634;
+  schema:image _:7978d777ae7c49b696caf18d3e5c47633;
   schema:keywords "Metal";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/megadeth?code=e009429> .
 
-_:0675e0f3c42c41abb6bf4240c574a2231 a schema:Offer;
+_:7978d777ae7c49b696caf18d3e5c47631 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/3100656BACAD57FE?lang=en-ca&brand=placebell> .
 
-_:0675e0f3c42c41abb6bf4240c574a2232 a schema:PerformingGroup;
+_:7978d777ae7c49b696caf18d3e5c47632 a schema:PerformingGroup;
   schema:name "Megadeth";
   schema:sameAs <https://www.youtube.com/embed/-E4O5VlRYOY>, <https://open.spotify.com/artist/1Yox196W7bzVNZI7RBaPnf> .
 
-_:0675e0f3c42c41abb6bf4240c574a2233 a schema:ImageObject;
+_:7978d777ae7c49b696caf18d3e5c47633 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/1a4yXaZT4B3UlvmgdjHKUo/5afe7e6d112cb11749477109ca78d841/megadeth_2027.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Megadeth, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-_:0675e0f3c42c41abb6bf4240c574a2234 a schema:Role;
+_:7978d777ae7c49b696caf18d3e5c47634 a schema:Role;
   schema:roleName "special_guest";
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a2235 .
+  schema:performer _:7978d777ae7c49b696caf18d3e5c47635 .
 
-_:0675e0f3c42c41abb6bf4240c574a2235 a schema:PerformingGroup;
+_:7978d777ae7c49b696caf18d3e5c47635 a schema:PerformingGroup;
   schema:name "Anthrax and Kerry King" .
-
-event:e009369 a schema:Event;
-  schema:name "Hermanos Gutiérrez";
-  schema:startDate "2027-05-12T20:00:00.000-04:00"^^xsd:dateTime;
-  schema:doorTime "2027-05-12T19:00:00.000-04:00"^^xsd:dateTime;
-  schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a2236;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a2237;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a2238;
-  schema:keywords "Folk", "Latin";
-  schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
-  schema:url <https://evenko.ca/en/events/place-bell/hermanos-gutierrez?code=e009369> .
-
-_:0675e0f3c42c41abb6bf4240c574a2236 a schema:Offer;
-  schema:url <https://www.ticketmaster.ca/event/3100655D9E858B5B?did=eko&lang=en-ca&brand=placebell> .
-
-_:0675e0f3c42c41abb6bf4240c574a2237 a schema:PerformingGroup;
-  schema:name "Hermanos Gutiérrez";
-  schema:sameAs <https://www.youtube.com/embed/NBS1lI3U4E>, <https://open.spotify.com/artist/73mSg0dykFyhvU96tb5xQV> .
-
-_:0675e0f3c42c41abb6bf4240c574a2238 a schema:ImageObject;
-  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/2Xpyd2Byu3lu0qTrFy0Dc1/06dc90de5e14d4d5d4da1ccb7cb89348/hermanos_gutierrez_2027.jpg>;
-  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
-    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
-  schema:disambiguatingDescription "Image of Hermanos Gutiérrez, sourced from evenko.ca";
-  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
 event:e009341 a schema:Event;
   schema:name "The Plot In You";
   schema:startDate "2027-04-06T19:00:00.000-04:00"^^xsd:dateTime;
   schema:doorTime "2027-04-06T18:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a2239;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22310;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22311;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c47636;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c47637, _:7978d777ae7c49b696caf18d3e5c47639,
+    _:7978d777ae7c49b696caf18d3e5c476311;
+  schema:image _:7978d777ae7c49b696caf18d3e5c47638;
   schema:keywords "Alternative", "Metal", "Rock";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/the-plot-in-you?code=e009341> .
 
-_:0675e0f3c42c41abb6bf4240c574a2239 a schema:Offer;
+_:7978d777ae7c49b696caf18d3e5c47636 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006557D705C408?lang=en-ca&brand=placebell> .
 
-_:0675e0f3c42c41abb6bf4240c574a22310 a schema:PerformingGroup;
+_:7978d777ae7c49b696caf18d3e5c47637 a schema:PerformingGroup;
   schema:name "The Plot in You";
   schema:sameAs <https://www.youtube.com/embed/sqnR8MnUD1w>, <https://open.spotify.com/artist/1cJ5tVoeAEFcZBAwSZ0CtF> .
 
-_:0675e0f3c42c41abb6bf4240c574a22311 a schema:ImageObject;
+_:7978d777ae7c49b696caf18d3e5c47638 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/22vOh7j0oGakCXxIhcOrZz/54d27771a44c6b7af08a95b566a60b9e/tpiy_2027.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of The Plot In You, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
+_:7978d777ae7c49b696caf18d3e5c47639 a schema:Role;
+  schema:roleName "special_guest";
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476310 .
+
+_:7978d777ae7c49b696caf18d3e5c476310 a schema:PerformingGroup;
+  schema:name "Devil Wears Prada " .
+
+_:7978d777ae7c49b696caf18d3e5c476311 a schema:Role;
+  schema:roleName "special_guest";
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476312 .
+
+_:7978d777ae7c49b696caf18d3e5c476312 a schema:PerformingGroup;
+  schema:name "156/Silence" .
+
 event:e009336 a schema:Event;
   schema:name "Meshuggah";
   schema:startDate "2027-02-13T19:00:00.000-05:00"^^xsd:dateTime;
   schema:doorTime "2027-02-13T18:00:00.000-05:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22312;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22313;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22314;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476313;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476314;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476315;
   schema:keywords "Metal";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
   schema:url <https://evenko.ca/en/events/place-bell/meshuggah?code=e009336> .
 
-_:0675e0f3c42c41abb6bf4240c574a22312 a schema:Offer;
+_:7978d777ae7c49b696caf18d3e5c476313 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/31006554FFA9E421?lang=en-ca&brand=placebell> .
 
-_:0675e0f3c42c41abb6bf4240c574a22313 a schema:PerformingGroup;
+_:7978d777ae7c49b696caf18d3e5c476314 a schema:PerformingGroup;
   schema:name "Meshuggah";
   schema:sameAs <https://www.youtube.com/embed/OyWbQwK65Qc>, <https://open.spotify.com/artist/3ggwAqZD3lyT2sbovlmfQY> .
 
-_:0675e0f3c42c41abb6bf4240c574a22314 a schema:ImageObject;
+_:7978d777ae7c49b696caf18d3e5c476315 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/2xaMBiuJSP14qRL05jKlAQ/3d923af03580beee7b482e413d8fb29a/meshuggah_2027.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Meshuggah, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
-event:e009291 a schema:Event;
-  schema:name "Soolking";
-  schema:startDate "2027-02-04T20:00:00.000-05:00"^^xsd:dateTime;
-  schema:doorTime "2027-02-04T19:00:00.000-05:00"^^xsd:dateTime;
+event:e009482 a schema:Event;
+  schema:name "The Doobie Brothers";
+  schema:startDate "2027-08-09T20:00:00.000-04:00"^^xsd:dateTime;
+  schema:doorTime "2027-08-09T19:00:00.000-04:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22315;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22316;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22317;
-  schema:keywords "Hip-Hop", "Rap", "R&B";
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476316;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476317;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476318;
+  schema:keywords "Rock";
   schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
-  schema:url <https://evenko.ca/en/events/place-bell/soolking?code=e009291> .
+  schema:url <https://evenko.ca/en/events/place-bell/the-doobie-brothers?code=e009482> .
 
-_:0675e0f3c42c41abb6bf4240c574a22315 a schema:Offer;
-  schema:url <https://www.ticketmaster.ca/event/31006549E0409DED?lang=en-ca&brand=placebell> .
+_:7978d777ae7c49b696caf18d3e5c476316 a schema:Offer;
+  schema:url <https://www.ticketmaster.ca/event/31006572D3F7C864?lang=en-ca&brand=placebell> .
 
-_:0675e0f3c42c41abb6bf4240c574a22316 a schema:PerformingGroup;
-  schema:name "Soolking";
-  schema:sameAs <https://www.youtube.com/embed/CcwxHNxm2xY>, <https://open.spotify.com/artist/0GgY7hjMoGDsX8ZDe2mwds> .
+_:7978d777ae7c49b696caf18d3e5c476317 a schema:PerformingGroup;
+  schema:name "The Doobie Brothers";
+  schema:sameAs <https://www.youtube.com/embed/2rtwH-MlyeE>, <https://open.spotify.com/artist/39T6qqI0jDtSWWioX8eGJz> .
 
-_:0675e0f3c42c41abb6bf4240c574a22317 a schema:ImageObject;
-  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/6HFf6celxgbP7kEBos5StI/bf371ccdb6907292bc88edbdc7a236aa/Soolking.png>;
+_:7978d777ae7c49b696caf18d3e5c476318 a schema:ImageObject;
+  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/3IheA2ZfFkJIq66FMXRTLO/9e0f8ae836c3a45cc9efd477f82a0a2b/PB-270809-TheDoobieBrothers-Web-Visuels-RS-680x473.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
-  schema:disambiguatingDescription "Image of Soolking, sourced from evenko.ca";
-  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
-
-event:e009242 a schema:Event;
-  schema:name "Greta Van Fleet";
-  schema:startDate "2027-07-28T19:00:00.000-04:00"^^xsd:dateTime;
-  schema:doorTime "2027-07-28T18:00:00.000-04:00"^^xsd:dateTime;
-  schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22318;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22319, _:0675e0f3c42c41abb6bf4240c574a22321,
-    _:0675e0f3c42c41abb6bf4240c574a22323;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22320;
-  schema:keywords "Other", "Rock";
-  schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
-  schema:url <https://evenko.ca/en/events/place-bell/greta-van-fleet?code=e009242> .
-
-_:0675e0f3c42c41abb6bf4240c574a22318 a schema:Offer;
-  schema:url <https://www.ticketmaster.ca/event/3100653CC94F6595?lang=en-ca&brand=placebell> .
-
-_:0675e0f3c42c41abb6bf4240c574a22319 a schema:PerformingGroup;
-  schema:name "Greta Van Fleet";
-  schema:sameAs <https://www.youtube.com/embed/CJsfI1QVBEM>, <https://open.spotify.com/artist/4NpFxQe2UvRCAjto3JqlSl> .
-
-_:0675e0f3c42c41abb6bf4240c574a22320 a schema:ImageObject;
-  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/7ptyLLxTUZrYTP2SYcSIMX/7ca5d8b69bd9cf486ed3b4e97778a58f/Greta-Van-Fleet.png>;
-  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
-    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
-  schema:disambiguatingDescription "Image of Greta Van Fleet, sourced from evenko.ca";
-  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
-
-_:0675e0f3c42c41abb6bf4240c574a22321 a schema:Role;
-  schema:roleName "special_guest";
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22322 .
-
-_:0675e0f3c42c41abb6bf4240c574a22322 a schema:PerformingGroup;
-  schema:name "Portugal. The Man";
-  schema:sameAs <https://www.youtube.com/embed/pBkHHoOIIn8>, <https://open.spotify.com/artist/4kI8Ie27vjvonwaB2ePh8T> .
-
-_:0675e0f3c42c41abb6bf4240c574a22323 a schema:Role;
-  schema:roleName "special_guest";
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22324 .
-
-_:0675e0f3c42c41abb6bf4240c574a22324 a schema:PerformingGroup;
-  schema:name " Friko" .
-
-event:e008799 a schema:Event;
-  schema:name "Disney On Ice presents The Magic of Family ";
-  schema:startDate "2026-12-20T15:00:00.000-05:00"^^xsd:dateTime;
-  schema:doorTime "2026-12-20T14:00:00.000-05:00"^^xsd:dateTime;
-  schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22325;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22326;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22327;
-  schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e008799> .
-
-_:0675e0f3c42c41abb6bf4240c574a22325 a schema:Offer;
-  schema:url <https://www.ticketmaster.ca/event/310064E3C565670E?lang=en-ca&brand=placebell> .
-
-_:0675e0f3c42c41abb6bf4240c574a22326 a schema:PerformingGroup;
-  schema:name "Disney On Ice presents The Magic of Family " .
-
-_:0675e0f3c42c41abb6bf4240c574a22327 a schema:ImageObject;
-  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/6kwW37Z5c5IgP1C7jmuSjM/190a65196d7d62a504a14a4267eacb61/Email_680x473_SDB__4_.jpg>;
-  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
-    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
-  schema:disambiguatingDescription "Image of Disney On Ice presents The Magic of Family , sourced from evenko.ca";
-  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
-
-event:e008798 a schema:Event;
-  schema:name "Disney On Ice presents The Magic of Family ";
-  schema:startDate "2026-12-20T11:00:00.000-05:00"^^xsd:dateTime;
-  schema:doorTime "2026-12-20T10:00:00.000-05:00"^^xsd:dateTime;
-  schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22328;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22329;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22330;
-  schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e008798> .
-
-_:0675e0f3c42c41abb6bf4240c574a22328 a schema:Offer;
-  schema:url <https://www.ticketmaster.ca/event/310064E3C55A66F6?lang=en-ca&brand=placebell> .
-
-_:0675e0f3c42c41abb6bf4240c574a22329 a schema:PerformingGroup;
-  schema:name "Disney On Ice presents The Magic of Family " .
-
-_:0675e0f3c42c41abb6bf4240c574a22330 a schema:ImageObject;
-  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/44wwrlSAWZPJVu2a76VwwA/c86f562f9ff5d89d64f02083cfcc01d3/Email_680x473_SDB__4_.jpg>;
-  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
-    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
-  schema:disambiguatingDescription "Image of Disney On Ice presents The Magic of Family , sourced from evenko.ca";
-  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
-
-event:e008797 a schema:Event;
-  schema:name "Disney On Ice presents The Magic of Family ";
-  schema:startDate "2026-12-19T19:00:00.000-05:00"^^xsd:dateTime;
-  schema:doorTime "2026-12-19T18:00:00.000-05:00"^^xsd:dateTime;
-  schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22331;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22332;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22333;
-  schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e008797> .
-
-_:0675e0f3c42c41abb6bf4240c574a22331 a schema:Offer;
-  schema:url <https://www.ticketmaster.ca/event/310064E3C570672A?lang=en-ca&brand=placebell> .
-
-_:0675e0f3c42c41abb6bf4240c574a22332 a schema:PerformingGroup;
-  schema:name "Disney On Ice presents The Magic of Family " .
-
-_:0675e0f3c42c41abb6bf4240c574a22333 a schema:ImageObject;
-  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/wKFnYY21h6vRBtcmZRqpj/331b898a0f09c3c4363c6fe0a612b7c8/Email_680x473_SDB__4_.jpg>;
-  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
-    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
-  schema:disambiguatingDescription "Image of Disney On Ice presents The Magic of Family , sourced from evenko.ca";
-  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
-
-event:e008796 a schema:Event;
-  schema:name "Disney On Ice presents The Magic of Family ";
-  schema:startDate "2026-12-19T15:00:00.000-05:00"^^xsd:dateTime;
-  schema:doorTime "2026-12-19T14:00:00.000-05:00"^^xsd:dateTime;
-  schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22334;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22335;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22336;
-  schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e008796> .
-
-_:0675e0f3c42c41abb6bf4240c574a22334 a schema:Offer;
-  schema:url <https://www.ticketmaster.ca/event/310064E3C561670C?lang=en-ca&brand=placebell> .
-
-_:0675e0f3c42c41abb6bf4240c574a22335 a schema:PerformingGroup;
-  schema:name "Disney On Ice presents The Magic of Family " .
-
-_:0675e0f3c42c41abb6bf4240c574a22336 a schema:ImageObject;
-  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/5HtcZbz5CiWfQlh604SWut/8aa2d65ef31346d54b3f57d007d5fcf7/Email_680x473_SDB__4_.jpg>;
-  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
-    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
-  schema:disambiguatingDescription "Image of Disney On Ice presents The Magic of Family , sourced from evenko.ca";
-  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
-
-event:e008795 a schema:Event;
-  schema:name "Disney On Ice presents The Magic of Family ";
-  schema:startDate "2026-12-19T11:00:00.000-05:00"^^xsd:dateTime;
-  schema:doorTime "2026-12-19T10:00:00.000-05:00"^^xsd:dateTime;
-  schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22337;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22338;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22339;
-  schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e008795> .
-
-_:0675e0f3c42c41abb6bf4240c574a22337 a schema:Offer;
-  schema:url <https://www.ticketmaster.ca/event/310064E3C55666DC?lang=en-ca&brand=placebell> .
-
-_:0675e0f3c42c41abb6bf4240c574a22338 a schema:PerformingGroup;
-  schema:name "Disney On Ice presents The Magic of Family " .
-
-_:0675e0f3c42c41abb6bf4240c574a22339 a schema:ImageObject;
-  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/6pp0nb7LJ1m8BFlFEcobDk/56fdf80f6eca745b73570e8d1baaaa26/Email_680x473_SDB__4_.jpg>;
-  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
-    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
-  schema:disambiguatingDescription "Image of Disney On Ice presents The Magic of Family , sourced from evenko.ca";
-  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
-
-event:e008794 a schema:Event;
-  schema:name "Disney On Ice presents The Magic of Family ";
-  schema:startDate "2026-12-18T19:00:00.000-05:00"^^xsd:dateTime;
-  schema:doorTime "2026-12-18T18:00:00.000-05:00"^^xsd:dateTime;
-  schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22340;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22341;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22342;
-  schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e008794> .
-
-_:0675e0f3c42c41abb6bf4240c574a22340 a schema:Offer;
-  schema:url <https://www.ticketmaster.ca/event/310064E3C56C671B?lang=en-ca&brand=placebell> .
-
-_:0675e0f3c42c41abb6bf4240c574a22341 a schema:PerformingGroup;
-  schema:name "Disney On Ice presents The Magic of Family " .
-
-_:0675e0f3c42c41abb6bf4240c574a22342 a schema:ImageObject;
-  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/3bpKzcdNnczvZkL0bmMTjR/8762a1dce59a157cee526b11e035e860/Email_680x473_SDB__4_.jpg>;
-  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
-    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
-  schema:disambiguatingDescription "Image of Disney On Ice presents The Magic of Family , sourced from evenko.ca";
-  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
-
-event:e008645 a schema:Event;
-  schema:name "Bigflo & Oli";
-  schema:startDate "2027-01-20T19:30:00.000-05:00"^^xsd:dateTime;
-  schema:doorTime "2027-01-20T18:30:00.000-05:00"^^xsd:dateTime;
-  schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22343;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22344;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22345;
-  schema:keywords "Hip-Hop", "Rap";
-  schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
-  schema:url <https://evenko.ca/en/events/place-bell/bigflo-oli?code=e008645> .
-
-_:0675e0f3c42c41abb6bf4240c574a22343 a schema:Offer;
-  schema:url <https://www.ticketmaster.ca/event/310064CA9AD64711?lang=en-ca&brand=placebell> .
-
-_:0675e0f3c42c41abb6bf4240c574a22344 a schema:PerformingGroup;
-  schema:name "Bigflo & Oli";
-  schema:sameAs <https://www.youtube.com/embed/8AF-Sm8d8yk>, <https://open.spotify.com/artist/5mmEMfYChd6MImBagU7zCs> .
-
-_:0675e0f3c42c41abb6bf4240c574a22345 a schema:ImageObject;
-  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/3CH8naaznnUO7hGuuYfQIF/34cac5b8c7eb22972240ef50d039441b/Bigflo-_-Oli.png>;
-  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
-    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
-  schema:disambiguatingDescription "Image of Bigflo & Oli, sourced from evenko.ca";
-  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
-
-event:e008255 a schema:Event;
-  schema:name "Les Trois Accords";
-  schema:startDate "2027-03-13T19:30:00.000-05:00"^^xsd:dateTime;
-  schema:doorTime "2027-03-13T18:30:00.000-05:00"^^xsd:dateTime;
-  schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22346;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22347;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22348;
-  schema:keywords "Pop", "Rock";
-  schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
-  schema:url <https://evenko.ca/en/events/place-bell/les-trois-accords?code=e008255> .
-
-_:0675e0f3c42c41abb6bf4240c574a22346 a schema:Offer;
-  schema:url <https://www.ticketmaster.ca/event/3100649EAC146BFB?lang=en-ca&brand=placebell> .
-
-_:0675e0f3c42c41abb6bf4240c574a22347 a schema:PerformingGroup;
-  schema:name "Les Trois Accords";
-  schema:sameAs <https://www.youtube.com/embed/4E6jr8XjnEE>, <https://open.spotify.com/artist/2Xoi1HPP0Wa6nyNSYyHxgI> .
-
-_:0675e0f3c42c41abb6bf4240c574a22348 a schema:ImageObject;
-  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/4AqAOACKWSqv9njwO1FHgn/16c370722de9546289d467b314713f0c/trois_accords_2027_2.jpg>;
-  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
-    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
-  schema:disambiguatingDescription "Image of Les Trois Accords, sourced from evenko.ca";
-  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
-
-event:e005330 a schema:Event;
-  schema:name "Eros Ramazzotti";
-  schema:startDate "2027-09-26T20:00:00.000-04:00"^^xsd:dateTime;
-  schema:doorTime "2027-09-26T19:00:00.000-04:00"^^xsd:dateTime;
-  schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22349;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22350;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22351;
-  schema:keywords "Pop";
-  schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
-  schema:url <https://evenko.ca/en/events/place-bell/eros-ramazzotti?code=e005330> .
-
-_:0675e0f3c42c41abb6bf4240c574a22349 a schema:Offer;
-  schema:url <https://www.ticketmaster.ca/event/31006287A2771FE5?lang=en-ca&brand=placebell> .
-
-_:0675e0f3c42c41abb6bf4240c574a22350 a schema:PerformingGroup;
-  schema:name "Eros Ramazzotti";
-  schema:sameAs <https://www.youtube.com/embed/sJoXhsafAjc>, <https://open.spotify.com/artist/61J0BktHv7PuP3tjTPYXSX> .
-
-_:0675e0f3c42c41abb6bf4240c574a22351 a schema:ImageObject;
-  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/16BZ8uWHFkptlSYo5hPkbw/e8485529f358f699e40f91473582d156/eros_ramazzotti_2025.jpg>;
-  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
-    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
-  schema:disambiguatingDescription "Image of Eros Ramazzotti, sourced from evenko.ca";
+  schema:disambiguatingDescription "Image of The Doobie Brothers, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
 
 event:e009478 a schema:Event;
@@ -403,18 +134,18 @@ event:e009478 a schema:Event;
   schema:startDate "2026-12-20T19:00:00.000-05:00"^^xsd:dateTime;
   schema:doorTime "2026-12-20T18:00:00.000-05:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22352;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22353;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22354;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476319;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476320;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476321;
   schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e009478> .
 
-_:0675e0f3c42c41abb6bf4240c574a22352 a schema:Offer;
+_:7978d777ae7c49b696caf18d3e5c476319 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/310064E3C5736737?lang=en-ca&brand=placebell> .
 
-_:0675e0f3c42c41abb6bf4240c574a22353 a schema:PerformingGroup;
+_:7978d777ae7c49b696caf18d3e5c476320 a schema:PerformingGroup;
   schema:name "Disney On Ice presents The Magic of Family " .
 
-_:0675e0f3c42c41abb6bf4240c574a22354 a schema:ImageObject;
+_:7978d777ae7c49b696caf18d3e5c476321 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/7zAUK4vtEfJHhXqF4htiIa/479b89810e7e0676a84faf06b2037aac/Email_680x473_SDB__4_.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -426,18 +157,18 @@ event:e009476 a schema:Event;
   schema:startDate "2026-12-18T15:00:00.000-05:00"^^xsd:dateTime;
   schema:doorTime "2026-12-18T14:00:00.000-05:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22355;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22356;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22357;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476322;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476323;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476324;
   schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e009476> .
 
-_:0675e0f3c42c41abb6bf4240c574a22355 a schema:Offer;
+_:7978d777ae7c49b696caf18d3e5c476322 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/310064E3C55D6707?lang=en-ca&brand=placebell> .
 
-_:0675e0f3c42c41abb6bf4240c574a22356 a schema:PerformingGroup;
+_:7978d777ae7c49b696caf18d3e5c476323 a schema:PerformingGroup;
   schema:name "Disney On Ice presents The Magic of Family " .
 
-_:0675e0f3c42c41abb6bf4240c574a22357 a schema:ImageObject;
+_:7978d777ae7c49b696caf18d3e5c476324 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/1Klyk4kbZsvaGg8pJR3pvz/4c0c620d797a37f6b7c1db85c4249ede/Email_680x473_SDB__4_.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -449,18 +180,18 @@ event:e009475 a schema:Event;
   schema:startDate "2026-12-18T11:00:00.000-05:00"^^xsd:dateTime;
   schema:doorTime "2026-12-18T10:00:00.000-05:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22358;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22359;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22360;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476325;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476326;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476327;
   schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e009475> .
 
-_:0675e0f3c42c41abb6bf4240c574a22358 a schema:Offer;
+_:7978d777ae7c49b696caf18d3e5c476325 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/310064E3C55366CE?lang=en-ca&brand=placebell> .
 
-_:0675e0f3c42c41abb6bf4240c574a22359 a schema:PerformingGroup;
+_:7978d777ae7c49b696caf18d3e5c476326 a schema:PerformingGroup;
   schema:name "Disney On Ice presents The Magic of Family " .
 
-_:0675e0f3c42c41abb6bf4240c574a22360 a schema:ImageObject;
+_:7978d777ae7c49b696caf18d3e5c476327 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/1yjpm2cu2ID0ULG5neGQFM/a71c8e15c820a058f23ff647cb564728/Email_680x473_SDB__4_.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
@@ -472,20 +203,330 @@ event:e009474 a schema:Event;
   schema:startDate "2026-12-17T19:00:00.000-05:00"^^xsd:dateTime;
   schema:doorTime "2026-12-17T18:00:00.000-05:00"^^xsd:dateTime;
   schema:location <http://kg.artsdata.ca/resource/K11-240>;
-  schema:offers _:0675e0f3c42c41abb6bf4240c574a22361;
-  schema:performer _:0675e0f3c42c41abb6bf4240c574a22362;
-  schema:image _:0675e0f3c42c41abb6bf4240c574a22363;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476328;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476329;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476330;
   schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e009474> .
 
-_:0675e0f3c42c41abb6bf4240c574a22361 a schema:Offer;
+_:7978d777ae7c49b696caf18d3e5c476328 a schema:Offer;
   schema:url <https://www.ticketmaster.ca/event/310064E3C5686712?lang=en-ca&brand=placebell> .
 
-_:0675e0f3c42c41abb6bf4240c574a22362 a schema:PerformingGroup;
+_:7978d777ae7c49b696caf18d3e5c476329 a schema:PerformingGroup;
   schema:name "Disney On Ice presents The Magic of Family " .
 
-_:0675e0f3c42c41abb6bf4240c574a22363 a schema:ImageObject;
+_:7978d777ae7c49b696caf18d3e5c476330 a schema:ImageObject;
   schema:url <https://images.ctfassets.net/3yxl57nu0yl4/JUM73hOTdC2SAQ6ybI3Rm/63a2c77316661758b8dd10021e262cfc/Email_680x473_SDB__4_.jpg>;
   schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
     "© Copyright source: evenko 2024. Tous droits réservés."@fr;
   schema:disambiguatingDescription "Image of Disney On Ice presents The Magic of Family , sourced from evenko.ca";
+  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
+
+event:e009369 a schema:Event;
+  schema:name "Hermanos Gutiérrez";
+  schema:startDate "2027-05-12T20:00:00.000-04:00"^^xsd:dateTime;
+  schema:doorTime "2027-05-12T19:00:00.000-04:00"^^xsd:dateTime;
+  schema:location <http://kg.artsdata.ca/resource/K11-240>;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476331;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476332;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476333;
+  schema:keywords "Folk", "Latin";
+  schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
+  schema:url <https://evenko.ca/en/events/place-bell/hermanos-gutierrez?code=e009369> .
+
+_:7978d777ae7c49b696caf18d3e5c476331 a schema:Offer;
+  schema:url <https://www.ticketmaster.ca/event/3100655D9E858B5B?did=eko&lang=en-ca&brand=placebell> .
+
+_:7978d777ae7c49b696caf18d3e5c476332 a schema:PerformingGroup;
+  schema:name "Hermanos Gutiérrez";
+  schema:sameAs <https://www.youtube.com/embed/NBS1lI3U4E>, <https://open.spotify.com/artist/73mSg0dykFyhvU96tb5xQV> .
+
+_:7978d777ae7c49b696caf18d3e5c476333 a schema:ImageObject;
+  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/2Xpyd2Byu3lu0qTrFy0Dc1/06dc90de5e14d4d5d4da1ccb7cb89348/hermanos_gutierrez_2027.jpg>;
+  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
+    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
+  schema:disambiguatingDescription "Image of Hermanos Gutiérrez, sourced from evenko.ca";
+  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
+
+event:e009291 a schema:Event;
+  schema:name "Soolking";
+  schema:startDate "2027-02-04T20:00:00.000-05:00"^^xsd:dateTime;
+  schema:doorTime "2027-02-04T19:00:00.000-05:00"^^xsd:dateTime;
+  schema:location <http://kg.artsdata.ca/resource/K11-240>;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476334;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476335;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476336;
+  schema:keywords "Hip-Hop", "Rap", "R&B";
+  schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
+  schema:url <https://evenko.ca/en/events/place-bell/soolking?code=e009291> .
+
+_:7978d777ae7c49b696caf18d3e5c476334 a schema:Offer;
+  schema:url <https://www.ticketmaster.ca/event/31006549E0409DED?lang=en-ca&brand=placebell> .
+
+_:7978d777ae7c49b696caf18d3e5c476335 a schema:PerformingGroup;
+  schema:name "Soolking";
+  schema:sameAs <https://www.youtube.com/embed/CcwxHNxm2xY>, <https://open.spotify.com/artist/0GgY7hjMoGDsX8ZDe2mwds> .
+
+_:7978d777ae7c49b696caf18d3e5c476336 a schema:ImageObject;
+  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/6HFf6celxgbP7kEBos5StI/bf371ccdb6907292bc88edbdc7a236aa/Soolking.png>;
+  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
+    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
+  schema:disambiguatingDescription "Image of Soolking, sourced from evenko.ca";
+  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
+
+event:e009242 a schema:Event;
+  schema:name "Greta Van Fleet";
+  schema:startDate "2027-07-28T19:00:00.000-04:00"^^xsd:dateTime;
+  schema:doorTime "2027-07-28T18:00:00.000-04:00"^^xsd:dateTime;
+  schema:location <http://kg.artsdata.ca/resource/K11-240>;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476337;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476338, _:7978d777ae7c49b696caf18d3e5c476340,
+    _:7978d777ae7c49b696caf18d3e5c476342;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476339;
+  schema:keywords "Other", "Rock";
+  schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
+  schema:url <https://evenko.ca/en/events/place-bell/greta-van-fleet?code=e009242> .
+
+_:7978d777ae7c49b696caf18d3e5c476337 a schema:Offer;
+  schema:url <https://www.ticketmaster.ca/event/3100653CC94F6595?lang=en-ca&brand=placebell> .
+
+_:7978d777ae7c49b696caf18d3e5c476338 a schema:PerformingGroup;
+  schema:name "Greta Van Fleet";
+  schema:sameAs <https://www.youtube.com/embed/CJsfI1QVBEM>, <https://open.spotify.com/artist/4NpFxQe2UvRCAjto3JqlSl> .
+
+_:7978d777ae7c49b696caf18d3e5c476339 a schema:ImageObject;
+  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/7ptyLLxTUZrYTP2SYcSIMX/7ca5d8b69bd9cf486ed3b4e97778a58f/Greta-Van-Fleet.png>;
+  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
+    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
+  schema:disambiguatingDescription "Image of Greta Van Fleet, sourced from evenko.ca";
+  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
+
+_:7978d777ae7c49b696caf18d3e5c476340 a schema:Role;
+  schema:roleName "special_guest";
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476341 .
+
+_:7978d777ae7c49b696caf18d3e5c476341 a schema:PerformingGroup;
+  schema:name "Portugal. The Man";
+  schema:sameAs <https://www.youtube.com/embed/pBkHHoOIIn8>, <https://open.spotify.com/artist/4kI8Ie27vjvonwaB2ePh8T> .
+
+_:7978d777ae7c49b696caf18d3e5c476342 a schema:Role;
+  schema:roleName "special_guest";
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476343 .
+
+_:7978d777ae7c49b696caf18d3e5c476343 a schema:PerformingGroup;
+  schema:name " Friko" .
+
+event:e008799 a schema:Event;
+  schema:name "Disney On Ice presents The Magic of Family ";
+  schema:startDate "2026-12-20T15:00:00.000-05:00"^^xsd:dateTime;
+  schema:doorTime "2026-12-20T14:00:00.000-05:00"^^xsd:dateTime;
+  schema:location <http://kg.artsdata.ca/resource/K11-240>;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476344;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476345;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476346;
+  schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e008799> .
+
+_:7978d777ae7c49b696caf18d3e5c476344 a schema:Offer;
+  schema:url <https://www.ticketmaster.ca/event/310064E3C565670E?lang=en-ca&brand=placebell> .
+
+_:7978d777ae7c49b696caf18d3e5c476345 a schema:PerformingGroup;
+  schema:name "Disney On Ice presents The Magic of Family " .
+
+_:7978d777ae7c49b696caf18d3e5c476346 a schema:ImageObject;
+  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/6kwW37Z5c5IgP1C7jmuSjM/190a65196d7d62a504a14a4267eacb61/Email_680x473_SDB__4_.jpg>;
+  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
+    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
+  schema:disambiguatingDescription "Image of Disney On Ice presents The Magic of Family , sourced from evenko.ca";
+  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
+
+event:e008798 a schema:Event;
+  schema:name "Disney On Ice presents The Magic of Family ";
+  schema:startDate "2026-12-20T11:00:00.000-05:00"^^xsd:dateTime;
+  schema:doorTime "2026-12-20T10:00:00.000-05:00"^^xsd:dateTime;
+  schema:location <http://kg.artsdata.ca/resource/K11-240>;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476347;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476348;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476349;
+  schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e008798> .
+
+_:7978d777ae7c49b696caf18d3e5c476347 a schema:Offer;
+  schema:url <https://www.ticketmaster.ca/event/310064E3C55A66F6?lang=en-ca&brand=placebell> .
+
+_:7978d777ae7c49b696caf18d3e5c476348 a schema:PerformingGroup;
+  schema:name "Disney On Ice presents The Magic of Family " .
+
+_:7978d777ae7c49b696caf18d3e5c476349 a schema:ImageObject;
+  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/44wwrlSAWZPJVu2a76VwwA/c86f562f9ff5d89d64f02083cfcc01d3/Email_680x473_SDB__4_.jpg>;
+  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
+    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
+  schema:disambiguatingDescription "Image of Disney On Ice presents The Magic of Family , sourced from evenko.ca";
+  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
+
+event:e008797 a schema:Event;
+  schema:name "Disney On Ice presents The Magic of Family ";
+  schema:startDate "2026-12-19T19:00:00.000-05:00"^^xsd:dateTime;
+  schema:doorTime "2026-12-19T18:00:00.000-05:00"^^xsd:dateTime;
+  schema:location <http://kg.artsdata.ca/resource/K11-240>;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476350;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476351;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476352;
+  schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e008797> .
+
+_:7978d777ae7c49b696caf18d3e5c476350 a schema:Offer;
+  schema:url <https://www.ticketmaster.ca/event/310064E3C570672A?lang=en-ca&brand=placebell> .
+
+_:7978d777ae7c49b696caf18d3e5c476351 a schema:PerformingGroup;
+  schema:name "Disney On Ice presents The Magic of Family " .
+
+_:7978d777ae7c49b696caf18d3e5c476352 a schema:ImageObject;
+  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/wKFnYY21h6vRBtcmZRqpj/331b898a0f09c3c4363c6fe0a612b7c8/Email_680x473_SDB__4_.jpg>;
+  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
+    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
+  schema:disambiguatingDescription "Image of Disney On Ice presents The Magic of Family , sourced from evenko.ca";
+  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
+
+event:e008796 a schema:Event;
+  schema:name "Disney On Ice presents The Magic of Family ";
+  schema:startDate "2026-12-19T15:00:00.000-05:00"^^xsd:dateTime;
+  schema:doorTime "2026-12-19T14:00:00.000-05:00"^^xsd:dateTime;
+  schema:location <http://kg.artsdata.ca/resource/K11-240>;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476353;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476354;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476355;
+  schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e008796> .
+
+_:7978d777ae7c49b696caf18d3e5c476353 a schema:Offer;
+  schema:url <https://www.ticketmaster.ca/event/310064E3C561670C?lang=en-ca&brand=placebell> .
+
+_:7978d777ae7c49b696caf18d3e5c476354 a schema:PerformingGroup;
+  schema:name "Disney On Ice presents The Magic of Family " .
+
+_:7978d777ae7c49b696caf18d3e5c476355 a schema:ImageObject;
+  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/5HtcZbz5CiWfQlh604SWut/8aa2d65ef31346d54b3f57d007d5fcf7/Email_680x473_SDB__4_.jpg>;
+  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
+    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
+  schema:disambiguatingDescription "Image of Disney On Ice presents The Magic of Family , sourced from evenko.ca";
+  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
+
+event:e008795 a schema:Event;
+  schema:name "Disney On Ice presents The Magic of Family ";
+  schema:startDate "2026-12-19T11:00:00.000-05:00"^^xsd:dateTime;
+  schema:doorTime "2026-12-19T10:00:00.000-05:00"^^xsd:dateTime;
+  schema:location <http://kg.artsdata.ca/resource/K11-240>;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476356;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476357;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476358;
+  schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e008795> .
+
+_:7978d777ae7c49b696caf18d3e5c476356 a schema:Offer;
+  schema:url <https://www.ticketmaster.ca/event/310064E3C55666DC?lang=en-ca&brand=placebell> .
+
+_:7978d777ae7c49b696caf18d3e5c476357 a schema:PerformingGroup;
+  schema:name "Disney On Ice presents The Magic of Family " .
+
+_:7978d777ae7c49b696caf18d3e5c476358 a schema:ImageObject;
+  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/6pp0nb7LJ1m8BFlFEcobDk/56fdf80f6eca745b73570e8d1baaaa26/Email_680x473_SDB__4_.jpg>;
+  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
+    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
+  schema:disambiguatingDescription "Image of Disney On Ice presents The Magic of Family , sourced from evenko.ca";
+  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
+
+event:e008794 a schema:Event;
+  schema:name "Disney On Ice presents The Magic of Family ";
+  schema:startDate "2026-12-18T19:00:00.000-05:00"^^xsd:dateTime;
+  schema:doorTime "2026-12-18T18:00:00.000-05:00"^^xsd:dateTime;
+  schema:location <http://kg.artsdata.ca/resource/K11-240>;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476359;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476360;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476361;
+  schema:url <https://evenko.ca/en/events/place-bell/disney-on-ice-presents-the-magic-of-family?code=e008794> .
+
+_:7978d777ae7c49b696caf18d3e5c476359 a schema:Offer;
+  schema:url <https://www.ticketmaster.ca/event/310064E3C56C671B?lang=en-ca&brand=placebell> .
+
+_:7978d777ae7c49b696caf18d3e5c476360 a schema:PerformingGroup;
+  schema:name "Disney On Ice presents The Magic of Family " .
+
+_:7978d777ae7c49b696caf18d3e5c476361 a schema:ImageObject;
+  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/3bpKzcdNnczvZkL0bmMTjR/8762a1dce59a157cee526b11e035e860/Email_680x473_SDB__4_.jpg>;
+  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
+    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
+  schema:disambiguatingDescription "Image of Disney On Ice presents The Magic of Family , sourced from evenko.ca";
+  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
+
+event:e008645 a schema:Event;
+  schema:name "Bigflo & Oli";
+  schema:startDate "2027-01-20T19:30:00.000-05:00"^^xsd:dateTime;
+  schema:doorTime "2027-01-20T18:30:00.000-05:00"^^xsd:dateTime;
+  schema:location <http://kg.artsdata.ca/resource/K11-240>;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476362;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476363;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476364;
+  schema:keywords "Hip-Hop", "Rap";
+  schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
+  schema:url <https://evenko.ca/en/events/place-bell/bigflo-oli?code=e008645> .
+
+_:7978d777ae7c49b696caf18d3e5c476362 a schema:Offer;
+  schema:url <https://www.ticketmaster.ca/event/310064CA9AD64711?lang=en-ca&brand=placebell> .
+
+_:7978d777ae7c49b696caf18d3e5c476363 a schema:PerformingGroup;
+  schema:name "Bigflo & Oli";
+  schema:sameAs <https://www.youtube.com/embed/8AF-Sm8d8yk>, <https://open.spotify.com/artist/5mmEMfYChd6MImBagU7zCs> .
+
+_:7978d777ae7c49b696caf18d3e5c476364 a schema:ImageObject;
+  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/3CH8naaznnUO7hGuuYfQIF/34cac5b8c7eb22972240ef50d039441b/Bigflo-_-Oli.png>;
+  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
+    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
+  schema:disambiguatingDescription "Image of Bigflo & Oli, sourced from evenko.ca";
+  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
+
+event:e008255 a schema:Event;
+  schema:name "Les Trois Accords";
+  schema:startDate "2027-03-13T19:30:00.000-05:00"^^xsd:dateTime;
+  schema:doorTime "2027-03-13T18:30:00.000-05:00"^^xsd:dateTime;
+  schema:location <http://kg.artsdata.ca/resource/K11-240>;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476365;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476366;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476367;
+  schema:keywords "Pop", "Rock";
+  schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
+  schema:url <https://evenko.ca/en/events/place-bell/les-trois-accords?code=e008255> .
+
+_:7978d777ae7c49b696caf18d3e5c476365 a schema:Offer;
+  schema:url <https://www.ticketmaster.ca/event/3100649EAC146BFB?lang=en-ca&brand=placebell> .
+
+_:7978d777ae7c49b696caf18d3e5c476366 a schema:PerformingGroup;
+  schema:name "Les Trois Accords";
+  schema:sameAs <https://www.youtube.com/embed/4E6jr8XjnEE>, <https://open.spotify.com/artist/2Xoi1HPP0Wa6nyNSYyHxgI> .
+
+_:7978d777ae7c49b696caf18d3e5c476367 a schema:ImageObject;
+  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/4AqAOACKWSqv9njwO1FHgn/16c370722de9546289d467b314713f0c/trois_accords_2027_2.jpg>;
+  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
+    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
+  schema:disambiguatingDescription "Image of Les Trois Accords, sourced from evenko.ca";
+  schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
+
+event:e005330 a schema:Event;
+  schema:name "Eros Ramazzotti";
+  schema:startDate "2027-09-26T20:00:00.000-04:00"^^xsd:dateTime;
+  schema:doorTime "2027-09-26T19:00:00.000-04:00"^^xsd:dateTime;
+  schema:location <http://kg.artsdata.ca/resource/K11-240>;
+  schema:offers _:7978d777ae7c49b696caf18d3e5c476368;
+  schema:performer _:7978d777ae7c49b696caf18d3e5c476369;
+  schema:image _:7978d777ae7c49b696caf18d3e5c476370;
+  schema:keywords "Pop";
+  schema:additionalType <http://kg.artsdata.ca/resource/MusicPerformance>;
+  schema:url <https://evenko.ca/en/events/place-bell/eros-ramazzotti?code=e005330> .
+
+_:7978d777ae7c49b696caf18d3e5c476368 a schema:Offer;
+  schema:url <https://www.ticketmaster.ca/event/31006287A2771FE5?lang=en-ca&brand=placebell> .
+
+_:7978d777ae7c49b696caf18d3e5c476369 a schema:PerformingGroup;
+  schema:name "Eros Ramazzotti";
+  schema:sameAs <https://www.youtube.com/embed/sJoXhsafAjc>, <https://open.spotify.com/artist/61J0BktHv7PuP3tjTPYXSX> .
+
+_:7978d777ae7c49b696caf18d3e5c476370 a schema:ImageObject;
+  schema:url <https://images.ctfassets.net/3yxl57nu0yl4/16BZ8uWHFkptlSYo5hPkbw/e8485529f358f699e40f91473582d156/eros_ramazzotti_2025.jpg>;
+  schema:copyrightNotice "© Copyright source: evenko 2024. All rights reserved."@en,
+    "© Copyright source: evenko 2024. Tous droits réservés."@fr;
+  schema:disambiguatingDescription "Image of Eros Ramazzotti, sourced from evenko.ca";
   schema:usageInfo <https://kg.artsdata.ca/doc/image-policy> .
